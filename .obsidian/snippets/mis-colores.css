@@ -1,0 +1,10 @@
+/* Callout Personalizado: Bloque Gris Oscuro */
+.callout[data-callout="custom"] {
+    --callout-color: 158, 158, 158; /* Color gris sólido para el borde izquierdo, ícono y título. */
+    --callout-icon: lucide-file-code-2; /* Ícono de código, puedes cambiarlo si quieres. */
+    
+    background-color: rgba(136, 136, 136, 0.15); /* Fondo gris con 15% de opacidad. */
+    border: 1px solid rgba(158, 158, 158, 0.2); /* Borde sutil y grisáceo alrededor de todo el bloque. */
+    border-left-width: 4px; /* Mantiene el borde izquierdo un poco más grueso. */
+    border-radius: 8px; /* Bordes ligeramente redondeados. */
+}
