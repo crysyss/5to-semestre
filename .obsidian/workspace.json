@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b6e723e892fd8ae",
+        "id": "5ab5a5d748eb8cbf",
         "type": "tabs",
         "children": [
           {
-            "id": "eb501b95482f02c1",
+            "id": "d52c89e782ab4a2f",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -178,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb501b95482f02c1",
+  "active": "d52c89e782ab4a2f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Sin título.canvas",
     "Java.md",
     "TOM/Tareas.md",
     "TOM/Clase 2.md",
