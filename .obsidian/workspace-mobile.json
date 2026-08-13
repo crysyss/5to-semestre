@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f2e013a94bdd1286",
+        "id": "58613e8aaafd93d6",
         "type": "tabs",
         "children": [
           {
-            "id": "ec8eb3486f8bcd15",
+            "id": "6e1f7be153aa1059",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Advanced_Linux_Programming.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Advanced_Linux_Programming"
             }
           }
         ]
@@ -163,6 +165,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec8eb3486f8bcd15",
-  "lastOpenFiles": []
+  "active": "6e1f7be153aa1059",
+  "lastOpenFiles": [
+    "Java.md",
+    "LP3",
+    "Marketing",
+    "TOM/Tareas.md",
+    "TOM/Clase 2.md",
+    "Recursos/20251018171407.png",
+    "Recursos/20251018113722.png",
+    "Recursos/20251018113612.png",
+    "Recursos/20251018113518.png",
+    "Recursos/20251018112326.png",
+    "/TOM/Tareas.md",
+    "/TOM/Clase 2.md",
+    "/Recursos/20251018171407.png",
+    "/Recursos/20251018113722.png",
+    "/Recursos/20251018113612.png",
+    "/Recursos/20251018113518.png",
+    "/Recursos/20251018112326.png",
+    "/Java.md",
+    "TOM",
+    "Recursos",
+    "/TOM",
+    "/Recursos"
+  ]
 }
