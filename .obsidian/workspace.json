@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Java.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -196,11 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71ae7f04bd5c3f11",
+  "active": "d52c89e782ab4a2f",
   "lastOpenFiles": [
+    "F2",
+    "LP3",
+    "IO1",
+    "Java.md",
+    "Sin título.md",
     "conflict-files-obsidian-git.md",
     "Sin título.canvas",
-    "Java.md",
     "TOM/Tareas.md",
     "TOM/Clase 2.md",
     "TOM/Sin título.md",
