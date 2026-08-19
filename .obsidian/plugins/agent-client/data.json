@@ -119,7 +119,7 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "opencode/big-pickle"
+    "opencode": "google/gemini-3.7-flash"
   },
   "lastUsedModes": {},
   "lastUsedConfigOptions": {},
