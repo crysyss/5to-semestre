@@ -1,4 +1,9 @@
 [
   "obsidian-git",
-  "calendar"
+  "calendar",
+  "make-md",
+  "obsidian-outliner",
+  "editing-toolbar",
+  "agent-client",
+  "obsidian-hider"
 ]

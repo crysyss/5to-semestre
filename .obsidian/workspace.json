@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6dd2689a1cc7cc9b",
+        "id": "2797efdb4513af27",
         "type": "tabs",
         "children": [
           {
-            "id": "c88790303a5f0ccc",
+            "id": "cd2c4d3a7160fd24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LP3/Cap1-PrimerosPasos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Cap1-PrimerosPasos"
             }
           }
         ]
@@ -74,8 +78,19 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "471feba7ed6d67bf",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,13 +197,25 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "29957d7f10dc929b",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {
+                "initialAgentId": "opencode"
+              },
+              "icon": "bot-message-square",
+              "title": "New session"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,13 +226,18 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "agent-client:Open agent client": false
     }
   },
-  "active": "c88790303a5f0ccc",
+  "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "Java.md",
+    "Tags",
     "LP3/Advanced_Linux_Programming.pdf",
+    "LP3/Cap1-PrimerosPasos.md",
+    "LP3/extract.js",
+    "Java.md",
+    "2026-W34.md",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "TOM/Clase 2.md",
     "TOM/Tareas.md",
