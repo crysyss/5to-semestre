@@ -108,16 +108,7 @@
     "showEmojis": true,
     "fontSize": null
   },
-  "savedSessions": [
-    {
-      "sessionId": "ses_fe8aaebfdffenZ6bfhlfhh0uh6",
-      "agentId": "opencode",
-      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
-      "title": "Hola, que modelo eres?",
-      "createdAt": "2026-08-19T00:04:49.302Z",
-      "updatedAt": "2026-08-19T00:29:34.908Z"
-    }
-  ],
+  "savedSessions": [],
   "lastUsedModels": {
     "opencode": "google/gemini-3.7-flash"
   },
