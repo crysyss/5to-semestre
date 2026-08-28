@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "sessionId": "ses_fe2ef114cffevpsnntbcuX66MJ",
+  "agentId": "opencode",
+  "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+  "title": "Haz un .md del capitulo 2 del libro advanced_pr...",
+  "createdAt": "2026-08-20T02:48:56.793Z",
+  "updatedAt": "2026-08-20T02:55:59.952Z",
+  "messages": [
+    {
+      "id": "f9388c74-c665-4f48-a8a0-9e4b063cf0a9",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Haz un .md del capitulo 2 del libro advanced_programming_linux, usa de referencia del formato de \"gettingStarted\"(Cap 1 del libro)"
+        }
+      ],
+      "timestamp": "2026-08-20T02:48:52.069Z"
+    },
+    {
+      "id": "0a9f8f5c-ebb4-4127-8a1d-b9023c27e62c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "fmMu2jT8xPjpRg95",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "**/*gettingStarted*.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:48:56.153Z"
+    },
+    {
+      "id": "636bea64-fa25-4780-993a-bc5d7316163c",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Haz un .md del capitulo 2 del libro advanced_programming_linux, usa de referencia del formato de \"gettingStarted.md\"(Cap 1 del libro)"
+        }
+      ],
+      "timestamp": "2026-08-20T02:49:11.597Z"
+    },
+    {
+      "id": "bade0d96-1b36-43a0-a85a-e7333cf99c82",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "godWX9bDnLQx7Vvd",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "**/*getting*.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:49:13.276Z"
+    },
+    {
+      "id": "64b1b52a-d6be-4901-b5a3-18dada68e10a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "O2wM7aSYgq1h3UZd",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "**/*chapter*.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "a5a5592b-6db8-4885-9367-c71833f8fc00",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "hV8Awx3AeYEmkugS",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "**/*.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "47db9429-aaf7-42aa-ace2-85946370bdfe",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "2rAW2eLAxDLiwkaE",
+          "title": "LP3\\Getting Started.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Getting Started.md"
+            }
+          ],
+          "rawInput": {
+            "limit": 100,
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Getting Started.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "d54b043e-910c-4d6a-855b-d4c9afa583a6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "Cz0p8go0gcde749P",
+          "title": "LP3\\Getting Started.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Getting Started.md"
+            }
+          ],
+          "rawInput": {
+            "offset": 101,
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Getting Started.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "4b125384-b3f2-46ec-b989-1529087d4256",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "Ii4mXumLOiZ5Toy9",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "**/LP3/*.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "44ebc6b3-cc2d-4087-8e1a-da7d52f0a0e8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "vKTgej2gepLbYNCJ",
+          "title": "LP3\\Writing Local Programs.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Writing Local Programs.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Writing Local Programs.md",
+            "content": "## Índice General\n\n- [[#Objetivo del Capítulo]]\n- [[#2.1 Command-Line Options]]\n    - [[#Names of Option Arguments]]\n    - [[#getopt_long]]\n- [[#2.2 Standard Input, Standard Output, and Standard Error]]\n- [[#2.3 Writing Data to Standard Error]]\n- [[#2.4 Writing to standard output with printf]]\n- [[#2.5 Environment Variables]]\n    - [[#Accessing Environment Variables]]\n    - [[#Modifying Environment Variables]]\n- [[#2.6 System Calls]]\n- [[#2.7 Device Drivers and the /dev Directory]]\n- [[#2.8 Inline Assembly Code]]\n\n---\n\n# Objetivo del Capítulo\n\nEste capítulo introduce conceptos fundamentales de la programación en Linux para interactuar con el sistema operativo y el entorno de ejecución. Aprenderás a procesar argumentos de la línea de comandos de manera robusta, manejar los flujos de entrada y salida estándar, utilizar variables de entorno, invocar llamadas al sistema (system calls), interactuar con dispositivos a través del sistema de archivos `/dev` e integrar código ensamblador en programas C/C++.\n\n---\n\n# 2.1 Command-Line Options\n\nLos programas en Linux suelen aceptar opciones (también llamadas *flags* o *switches*) en la línea de comandos para modificar su comportamiento. Estas opciones pueden ser cortas (un solo carácter precedido de un guion, ej. `-h`) o largas (palabras descriptivas precedidas de dos guiones, ej. `--help`).\n\nEl estándar de GNU establece que los programas deben admitir tanto opciones cortas como opciones largas equivalentes para mejorar la usabilidad.\n\n---\n\n### Names of Option Arguments\n\nMuchas opciones requieren un argumento (por ejemplo, `-o archivo` o `--output archivo`).\n\n- En las opciones cortas, el argumento puede aparecer inmediatamente después de la opción (`-oarchivo`) o separado por un espacio (`-o archivo`).\n- En las opciones largas, el argumento se separa con un signo de igual (`--output=archivo`) o con un espacio (`--output archivo`).\n\n---\n\n### getopt_long\n\nLa función estándar para procesar opciones complejas en la línea de comandos (cortas y largas) es `getopt_long`, definida en la cabecera `<getopt.h>`.\n\nPara usar `getopt_long`, se define un array de estructuras `struct option`. Cada elemento describe una opción larga:\n\n```c\nstruct option {\n    const char *name;     // Nombre de la opción larga (sin los dos guiones)\n    int         has_arg;  // Puede ser no_argument, required_argument o optional_argument\n    int        *flag;     // Puntero para almacenar el resultado o NULL\n    int         val;      // Carácter o valor a retornar cuando se detecta la opción\n};\n```\n\nA continuación se muestra un ejemplo básico de procesamiento de opciones que sigue este estándar:\n\n```c\n#include <getopt.h>\n#include <stdio.h>\n#include <stdlib.h>\n\nconst char* program_name;\n\nvoid print_usage (FILE* stream, int exit_code) {\n    fprintf (stream, \"Uso: %s [opciones]\\n\", program_name);\n    fprintf (stream,\n             \"  -h  --help             Mostrar esta ayuda.\\n\"\n             \"  -o  --output filename  Escribir salida a un archivo.\\n\"\n             \"  -v  --verbose          Mostrar mensajes detallados.\\n\");\n    exit (exit_code);\n}\n\nint main (int argc, char* argv[]) {\n    int next_option;\n    const char* const short_options = \"ho:v\";\n    const struct option long_options[] = {\n        { \"help\",    no_argument,       NULL, 'h' },\n        { \"output\",  required_argument, NULL, 'o' },\n        { \"verbose\", no_argument,       NULL, 'v' },\n        { NULL,      0,                 NULL, 0   } // Debe terminar con un elemento vacío\n    };\n\n    const char* output_filename = NULL;\n    int verbose = 0;\n\n    program_name = argv[0];\n\n    do {\n        next_option = getopt_long (argc, argv, short_options, long_options, NULL);\n        switch (next_option) {\n            case 'h':\n                print_usage (stdout, 0);\n            case 'o':\n                output_filename = optarg; // optarg guarda el argumento de la opción\n                break;\n            case 'v':\n                verbose = 1;\n                break;\n            case '?': // Opción no reconocida\n                print_usage (stderr, 1);\n            case -1:  // Fin de las opciones\n                break;\n            default:\n                abort ();\n        }\n    } while (next_option != -1);\n\n    if (verbose) {\n        printf (\"Modo detallado activo.\\n\");\n    }\n    if (output_filename != NULL) {\n        printf (\"Archivo de salida: %s\\n\", output_filename);\n    }\n\n    // Los argumentos que no son opciones (como nombres de archivos al final)\n    // son ordenados por getopt_long al final de argv, comenzando en optind.\n    if (optind < argc) {\n        printf (\"Argumentos adicionales:\\n\");\n        for (int i = optind; i < argc; ++i) {\n            printf (\"  %s\\n\", argv[i]);\n        }\n    }\n\n    return 0;\n}\n```\n\n---\n\n# 2.2 Standard Input, Standard Output, and Standard Error\n\nPor defecto, cada proceso en Linux se inicia con tres flujos (streams) de comunicación abiertos:\n\n| Flujo | Descriptor de Archivo | Constante C (`<stdio.h>`) | Uso Principal |\n|:--|:--|:--|:--|\n| **Standard Input (stdin)** | `0` (STDIN_FILENO) | `stdin` | Entrada de datos al programa |\n| **Standard Output (stdout)** | `1` (STDOUT_FILENO) | `stdout` | Salida de datos normal / resultados |\n| **Standard Error (stderr)** | `2` (STDERR_FILENO) | `stderr` | Diagnósticos y mensajes de error |\n\n---\n\n# 2.3 Writing Data to Standard Error\n\nEs una buena práctica separar la salida normal del programa de los mensajes de error. Los resultados se dirigen a `stdout` y los diagnósticos a `stderr`. Esto permite que el usuario pueda redireccionar la salida del programa de forma limpia.\n\nEjemplo de redirección en la shell:\n\n```bash\n# Redireccionar salida estándar a un archivo (omite errores)\n./mi_programa > salida.txt\n\n# Redireccionar errores a un archivo diferente\n./mi_programa > salida.txt 2> errores.log\n```\n\n---\n\n# 2.4 Writing to standard output with printf\n\nLa salida estándar (`stdout`) utiliza **búferes (buffered I/O)** para mejorar el rendimiento de escritura en disco o terminal. Esto significa que los datos enviados con `printf` o `putchar` no se escriben inmediatamente en la consola, sino que se acumulan en un búfer de memoria.\n\nEl búfer se vacía (*flushed*) automáticamente bajo las siguientes condiciones:\n- Se escribe un carácter de nueva línea (`\\n`).\n- El programa espera una entrada a través de `stdin`.\n- El programa termina normalmente.\n- Se fuerza la escritura con `fflush(stdout)`.\n\nPor el contrario, **`stderr` no utiliza búfer (unbuffered I/O)** por defecto. Los mensajes enviados a `stderr` se muestran en pantalla de forma inmediata para asegurar que los errores se reporten incluso si el programa falla justo después de la llamada.\n\n---\n\n# 2.5 Environment Variables\n\nCada programa que se ejecuta en Linux cuenta con un conjunto de variables de entorno (environment variables), que constan de un par clave-valor en formato `NOMBRE=VALOR`.\n\nEstas variables definen configuraciones del sistema, rutas de directorios, el idioma local, etc.\n\n---\n\n### Accessing Environment Variables\n\nEn C/C++, se puede acceder a las variables de entorno de dos maneras:\n\n1. Usando la variable global `environ` (definida en `<unistd.h>`):\n\n```c\n#include <stdio.h>\n#include <unistd.h>\n\n// Declaración de la variable externa global\nextern char** environ;\n\nint main () {\n    // Recorre todas las variables de entorno y las imprime\n    for (char** env = environ; *env != NULL; ++env) {\n        printf (\"%s\\n\", *env);\n    }\n    return 0;\n}\n```\n\n2. Usando la función `getenv` (definida en `<stdlib.h>`) para buscar una variable específica:\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nint main () {\n    char* home_dir = getenv (\"HOME\");\n    if (home_dir != NULL) {\n        printf (\"Tu directorio HOME es: %s\\n\", home_dir);\n    } else {\n        printf (\"La variable HOME no está definida.\\n\");\n    }\n    return 0;\n}\n```\n\n---\n\n### Modifying Environment Variables\n\nSe pueden modificar o añadir variables de entorno en el proceso actual y en los procesos hijos que este genere mediante `setenv` y `unsetenv`:\n\n```c\n#include <stdlib.h>\n\nint main () {\n    // Establece la variable \"MI_VAR\" con el valor \"123\" (sobrescribiendo si ya existe)\n    setenv (\"MI_VAR\", \"123\", 1);\n\n    // Elimina la variable \"MI_VAR\"\n    unsetenv (\"MI_VAR\");\n\n    return 0;\n}\n```\n\n> [!warning] Las modificaciones son locales al proceso\n> Cualquier cambio realizado mediante `setenv` solo afecta al proceso actual y a los subprocesos que inicie a partir de ese momento. No altera el entorno del shell que ejecutó el programa.\n\n---\n\n# 2.6 System Calls\n\nLas **llamadas al sistema (system calls)** son las funciones que proporciona el kernel de Linux para que las aplicaciones de espacio de usuario soliciten servicios de bajo nivel (como leer/escribir archivos, crear procesos, o comunicarse por red).\n\nCuando una aplicación ejecuta una llamada al sistema:\n1. Se transfiere el control del modo de usuario (User Mode) al modo de kernel (Kernel Mode) mediante una interrupción de software.\n2. El kernel procesa la solicitud con privilegios elevados de hardware.\n3. El control se devuelve a la aplicación en modo de usuario.\n\nEn Linux, no se suele invocar la llamada al sistema directamente con código máquina; en su lugar, la **GNU C Library (glibc)** proporciona funciones de envoltura (*wrapper functions*) estándar que realizan el cambio de contexto de forma transparente.\n\n---\n\n# 2.7 Device Drivers and the /dev Directory\n\nEn Linux, siguiendo la filosofía de Unix, **todo es un archivo**. Los dispositivos de hardware (discos, puertos serie, teclados, tarjetas de sonido) se representan en el sistema de archivos como archivos especiales dentro del directorio `/dev`.\n\nLos programas interactúan con estos dispositivos usando las mismas system calls estándar de entrada/salida: `open`, `read`, `write` y `close`.\n\n---\n\n### Tipos de Archivos de Dispositivo\n\n- **Character Devices:** Dispositivos que se leen o escriben carácter a carácter (o byte a byte) de forma secuencial (ej. `/dev/tty` para la terminal, `/dev/null`).\n- **Block Devices:** Dispositivos que transfieren datos en bloques de tamaño fijo y soportan acceso aleatorio (ej. `/dev/sda` para discos duros).\n\n---\n\n### Dispositivos Especiales Útiles\n\n- `/dev/null`: El \"agujero negro\" de Linux. Cualquier escritura en él se descarta instantáneamente. Leer de él devuelve inmediatamente un indicador de fin de archivo (EOF).\n- `/dev/zero`: Un generador infinito de caracteres nulos (bytes con valor cero). Muy útil para inicializar archivos de datos vacíos o limpiar memoria.\n- `/dev/random` y `/dev/urandom`: Generadores de números pseudoaleatorios del sistema que recopilan ruido de fondo de los controladores de dispositivos. `/dev/urandom` es preferido para la mayoría de aplicaciones ya que no se bloquea si el sistema se queda sin entropía.\n\n---\n\n# 2.8 Inline Assembly Code\n\nAunque la gran parte del software de sistemas se escribe en C o C++, en raras ocasiones es necesario interactuar directamente con el hardware o ejecutar instrucciones de CPU muy específicas que no están disponibles en el compilador. Para esto, GCC proporciona la sintaxis de **ensamblador embebido (inline assembly)**.\n\nLa sintaxis general utiliza la palabra clave `asm` o `__asm__`:\n\n```c\n__asm__ (\"instrucciones\" : salidas : entradas : registros_modificados);\n```\n\nEjemplo de cómo obtener el ID de la CPU mediante la instrucción `cpuid` en arquitecturas x86:\n\n```c\n#include <stdio.h>\n\nint main () {\n    int eax_val, ebx_val;\n\n    // Ejecuta cpuid con el parámetro de entrada eax = 0\n    __asm__ (\"cpuid\"\n             : \"=a\" (eax_val), \"=b\" (ebx_val) // Salidas: eax va a eax_val, ebx va a ebx_val\n             : \"a\" (0)                         // Entradas: inicializa eax con 0\n             : \"ecx\", \"edx\"                    // Registros que se corrompen durante la ejecución\n    );\n\n    printf (\"Código del fabricante: %.4s\\n\", (char*)&ebx_val);\n    return 0;\n}\n```\n\n> [!warning] Código no portable\n> El uso de inline assembly anula la portabilidad de tu aplicación, limitándola a la arquitectura específica (ej. x86, ARM) para la que fue escrito el código ensamblador. Debe utilizarse únicamente cuando no existan alternativas de alto nivel."
+          }
+        },
+        {
+          "type": "text",
+          "text": "He creado el archivo Markdown para el Capítulo 2 del libro *Advanced Linux Programming*, titulado **Writing Local Programs**.\n\nEl archivo ha sido guardado con el nombre **`Writing Local Programs.md`** en el directorio `LP3/` (`C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Writing Local Programs.md`).\n\nSe ha seguido rigurosamente:\n- El formato de `Getting Started.md` (Capítulo 1), incluyendo su estilo de índice, separadores `---` y bloques de aviso Obsidian (`> [!info]`, `> [!warning]`).\n- La convención de enlaces clickable de Obsidian `[[#Sección]]`.\n- La regla de dejar una línea en blanco antes de cada tabla Markdown para asegurar un correcto renderizado en Obsidian."
+        }
+      ],
+      "timestamp": "2026-08-20T02:53:19.780Z"
+    },
+    {
+      "id": "0e74276b-3044-460f-9f26-1bb9c3a799e6",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "ahora la del capitulo 3 y luego otro para el 4",
+          "autoMentionContext": {
+            "noteName": "Writing Local Programs",
+            "notePath": "LP3/Writing Local Programs.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:55:18.701Z"
+    },
+    {
+      "id": "0cada900-8750-4ae6-ba50-52c620af1ad8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "Fn5ZPg2Hn9Vxkk6N",
+          "title": "LP3\\Processes.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Processes.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Processes.md",
+            "content": "## Índice General\n\n- [[#Objetivo del Capítulo]]\n- [[#3.1 Process IDs]]\n- [[#3.2 Creating Processes]]\n    - [[#Using system]]\n    - [[#Using fork and exec]]\n        - [[#Calling fork]]\n        - [[#Using exec]]\n- [[#3.3 Scheduling and Process States]]\n- [[#3.4 Terminating a Process]]\n    - [[#Exit Codes and Termination Status]]\n    - [[#Waiting for Process Termination]]\n    - [[#Zombie Processes]]\n    - [[#Cleaning Up Zombies Preventatively]]\n- [[#3.5 Process Signals]]\n- [[#3.6 Process Groups and Sessions]]\n\n---\n\n# Objetivo del Capítulo\n\nEste capítulo explora el modelo de procesos de Linux. Aprenderás qué es un proceso, cómo el sistema operativo lo identifica mediante su ID de proceso (PID), cómo crear nuevos procesos utilizando tanto el método simple `system` como el método de bajo nivel y de alto rendimiento basado en `fork` y `exec`. También veremos cómo se gestiona el ciclo de vida y la terminación de los procesos (evitando \"procesos zombi\"), cómo interactúan mediante señales y los conceptos de grupos de procesos y sesiones.\n\n---\n\n# 3.1 Process IDs\n\nEn Linux, cada programa en ejecución es un **proceso**. El sistema operativo asigna a cada proceso un identificador único conocido como **Process ID (PID)**, que es un número entero positivo.\n\nPara obtener el PID del proceso actual o del proceso padre, se utilizan las siguientes funciones de `<unistd.h>`:\n\n- `getpid()`: Devuelve el PID del proceso que realiza la llamada.\n- `getppid()`: Devuelve el PID del proceso padre.\n\nAmbas funciones retornan un tipo `pid_t`.\n\n---\n\n# 3.2 Creating Processes\n\nExisten dos formas principales de crear un nuevo proceso en Linux: la función de alto nivel `system` y la combinación de bajo nivel de `fork` y `exec`.\n\n---\n\n### Using system\n\nLa función `system` (declarada en `<stdlib.h>`) es la manera más sencilla de ejecutar un comando del sistema desde un programa C o C++.\n\n```c\n#include <stdlib.h>\n\nint main () {\n    int return_value = system (\"ls -l /\");\n    return return_value;\n}\n```\n\n> [!warning] Limitaciones de `system`\n> La función `system` invoca internamente una shell (`/bin/sh`) para ejecutar el comando. Esto penaliza severamente el rendimiento y presenta graves riesgos de seguridad (vulnerabilidades de inyección de comandos si la entrada proviene de un usuario).\n\n---\n\n### Using fork and exec\n\nEl método estándar, seguro y eficiente en Linux para iniciar procesos consiste en duplicar el proceso actual mediante `fork` y luego reemplazar el programa duplicado por uno nuevo mediante `exec`.\n\n#### Calling fork\n\nLa llamada al sistema `fork` duplica el proceso actual, creando un proceso hijo casi idéntico. Después de `fork`, **ambos procesos continúan ejecutándose desde la misma instrucción siguiente**.\n\nPara distinguir si estamos en el proceso padre o en el proceso hijo, examinamos el valor devuelto por `fork()`:\n\n- Si devuelve un valor **negativo**, la creación del proceso hijo falló.\n- Si devuelve **0**, nos encontramos en el proceso hijo recién creado.\n- Si devuelve un valor **positivo**, nos encontramos en el proceso padre, y el valor devuelto es el PID del hijo.\n\n```c\n#include <stdio.h>\n#include <sys/types.h>\n#include <unistd.h>\n\nint main () {\n    pid_t child_pid;\n\n    printf (\"El PID del programa principal es %d\\n\", (int) getpid ());\n\n    child_pid = fork ();\n    if (child_pid != 0) {\n        printf (\"Este es el proceso PADRE, con PID %d\\n\", (int) getpid ());\n        printf (\"El PID de mi hijo es %d\\n\", (int) child_pid);\n    } else {\n        printf (\"Este es el proceso HIJO, con PID %d\\n\", (int) getpid ());\n    }\n\n    return 0;\n}\n```\n\n---\n\n#### Using exec\n\nLas funciones de la familia `exec` reemplazan por completo la imagen del proceso actual por un nuevo programa ejecutable. El PID del proceso no cambia, pero el código, los datos, el heap y el stack son reemplazados por los del nuevo programa.\n\nExisten varias variantes de `exec` (como `execl`, `execv`, `execvp`, etc.) que difieren en cómo se pasan los argumentos y en cómo se busca el archivo ejecutable.\n\nEjemplo utilizando `execvp` (que busca el ejecutable en las rutas del `PATH` del sistema):\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <sys/types.h>\n#include <unistd.h>\n\nint spawn (char* program, char** arg_list) {\n    pid_t child_pid;\n\n    child_pid = fork ();\n    if (child_pid != 0) {\n        // Este es el proceso padre. Devuelve el PID del hijo.\n        return child_pid;\n    } else {\n        // Este es el proceso hijo. Ejecutamos el programa.\n        execvp (program, arg_list);\n        \n        // La función execvp solo retorna si ocurre un error.\n        fprintf (stderr, \"Ocurrió un error en execvp\\n\");\n        abort ();\n    }\n}\n\nint main () {\n    // La lista de argumentos para el comando 'ls -l /'\n    // El primer argumento debe ser el nombre del programa.\n    // La lista debe terminar obligatoriamente con un puntero NULL.\n    char* arg_list[] = {\n        \"ls\",\n        \"-l\",\n        \"/\",\n        NULL\n    };\n\n    spawn (\"ls\", arg_list);\n    printf (\"El proceso padre continúa ejecutándose...\\n\");\n    return 0;\n}\n```\n\n---\n\n# 3.3 Scheduling and Process States\n\nLinux es un sistema operativo multiproceso con tiempo compartido (*time-sharing*). El planificador de tareas (scheduler) del kernel decide qué proceso se ejecuta en la CPU en cada momento.\n\nUn proceso puede encontrarse en varios estados, entre los que destacan:\n\n- **Running (Ejecución):** El proceso se está ejecutando activamente en la CPU o está listo para ejecutarse tan pronto como se le asigne tiempo.\n- **Blocked / Sleeping (Bloqueado):** El proceso está esperando a que ocurra un evento externo (entrada de disco, recepción de red, o un temporizador) y no consume CPU.\n- **Stopped (Detenido):** El proceso ha sido suspendido, normalmente mediante señales de control como `SIGSTOP` (presionando `Ctrl+Z` en la terminal).\n\n---\n\n# 3.4 Terminating a Process\n\nUn proceso puede finalizar de dos formas: de manera normal (retornando de `main` o llamando a `exit`) o de manera anormal (debido a una señal no capturada, como un error de segmentación `SIGSEGV`).\n\n---\n\n### Exit Codes and Termination Status\n\nCuando un proceso termina de manera normal, devuelve un código de salida de 8 bits (un valor de `0` a `255`).\n\n- Por convención, un valor de `0` indica que el programa terminó con éxito.\n- Cualquier valor diferente de `0` indica un código de error o comportamiento anormal.\n\n---\n\n### Waiting for Process Termination\n\nEl proceso padre debe recoger el estado de terminación de sus procesos hijos. Para ello, se utilizan llamadas como `wait` o `waitpid` (definidas en `<sys/wait.h>`).\n\n- `wait(&status)`: Bloquea al proceso padre hasta que alguno de sus hijos termine.\n- `waitpid(pid, &status, options)`: Espera a que termine un hijo con un PID específico. Admite el flag `WNOHANG` para realizar una comprobación no bloqueante.\n\nExisten macros estándar para analizar el entero de `status`:\n\n| Macro | Descripción |\n|:--|:--|\n| `WIFEXITED(status)` | Devuelve verdadero si el hijo terminó normalmente. |\n| `WEXITSTATUS(status)` | Devuelve el código de salida real del hijo (solo si `WIFEXITED` es verdadero). |\n| `WIFSIGNALED(status)` | Devuelve verdadero si el hijo terminó debido a una señal no capturada (ej: crash). |\n| `WTERMSIG(status)` | Devuelve el número de la señal que causó la terminación. |\n\n---\n\n### Zombie Processes\n\nSi un proceso hijo termina y el proceso padre **no** llama a `wait` para recoger su estado, el hijo se convierte en un **proceso zombi**.\n\nUn zombi no consume CPU ni memoria RAM significativa, pero sí ocupa una entrada en la tabla de procesos del kernel. Si la tabla de procesos se llena de zombis, el sistema no podrá crear nuevos procesos.\n\n> [!info] El proceso init como rescatador\n> Si el proceso padre muere antes que el hijo, el hijo es adoptado por el proceso especial `init` (PID 1), el cual recoge automáticamente su estado de terminación cuando este finaliza, evitando que se quede como zombi.\n\n---\n\n### Cleaning Up Zombies Preventatively\n\nSi el proceso padre tiene una larga duración y no necesita esperar activamente la finalización de sus hijos de manera bloqueante, puede manejar la señal `SIGCHLD`. El kernel envía `SIGCHLD` al padre cada vez que un hijo termina.\n\n```c\n#include <signal.h>\n#include <string.h>\n#include <sys/types.h>\n#include <sys/wait.h>\n\nsig_atomic_t child_exit_status;\n\nvoid clean_up_child_process (int signal_number) {\n    int status;\n    // Limpia el proceso hijo zombi\n    wait (&status);\n    child_exit_status = status;\n}\n\nint main () {\n    struct sigaction sigchld_action;\n    memset (&sigchld_action, 0, sizeof (sigchld_action));\n    sigchld_action.sa_handler = &clean_up_child_process;\n    \n    // Registramos el manejador para la señal SIGCHLD\n    sigaction (SIGCHLD, &sigchld_action, NULL);\n\n    /* ... código que crea procesos hijos ... */\n\n    return 0;\n}\n```\n\n---\n\n# 3.5 Process Signals\n\nLas **señales (signals)** son un mecanismo de comunicación asíncrona que permite enviar notificaciones a los procesos. Cuando un proceso recibe una señal, interrumpe temporalmente su flujo de ejecución para ejecutar un manejador de señales (*signal handler*).\n\nLas señales más comunes en Linux son:\n\n| Señal | Acción por Defecto | Causa |\n|:--|:--|:--|\n| `SIGINT` | Termina el proceso | Enviada por la terminal al presionar `Ctrl+C` |\n| `SIGTERM` | Termina el proceso | Solicitud genérica de terminación (ej. comando `kill`) |\n| `SIGKILL` | Termina inmediatamente | Terminación forzada (no se puede ignorar ni capturar) |\n| `SIGSEGV` | Termina y genera core dump | Intento de acceso a memoria inválida (segmentation fault) |\n| `SIGUSR1` / `SIGUSR2` | Termina el proceso | Señales definidas para uso personalizado del usuario |\n\nSe utiliza la llamada al sistema `sigaction` (definida en `<signal.h>`) para configurar manejadores de señales personalizados de manera segura.\n\n---\n\n# 3.6 Process Groups and Sessions\n\n- **Process Group (Grupo de Procesos):** Una colección de uno o más procesos (típicamente relacionados en un pipeline de comandos, como `ls | grep txt`). Las señales enviadas a un grupo de procesos afectan a todos sus miembros simultáneamente.\n- **Session (Sesión):** Una colección de uno o más grupos de procesos que comparten una terminal de control (por ejemplo, todas las tareas iniciadas dentro de una misma ventana de terminal). Un proceso demonio (*daemon*) se desasocia explícitamente de su sesión y terminal de control para ejecutarse en segundo plano de manera autónoma."
+          }
+        }
+      ],
+      "timestamp": "2026-08-20T02:57:03.879Z"
+    },
+    {
+      "id": "4ad4ef69-c1f2-4e31-b54e-d1aac295d834",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "LCLDrPzREEGKqFNR",
+          "title": "LP3\\Threads.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Threads.md"
+            }
+          ],
+          "rawInput": {
+            "content": "## Índice General\n\n- [[#Objetivo del Capítulo]]\n- [[#4.1 Thread Creation]]\n- [[#4.2 Thread Arguments]]\n- [[#4.3 Thread Cancellation and Detaching]]\n    - [[#Thread Cancellation]]\n    - [[#Thread Detaching and Joining]]\n- [[#4.4 Thread-Specific Data]]\n- [[#4.5 Thread Synchronization and Critical Sections]]\n    - [[#Mutexes]]\n    - [[#Semaphore Basics]]\n    - [[#Condition Variables]]\n- [[#4.6 GNU/Linux Thread Implementation]]\n\n---\n\n# Objetivo del Capítulo\n\nEste capítulo introduce el concepto de hilos de ejecución (*threads*) en Linux utilizando la especificación estándar de hilos POSIX (conocida como **Pthreads**). Aprenderás a crear hilos, pasarles argumentos, controlar su ciclo de vida mediante la finalización, cancelación, espera (*joining*) y desasociación (*detaching*), almacenar datos específicos por hilo, y sincronizar el acceso a recursos compartidos mediante exclusión mutua (*mutexes*), semáforos y variables de condición.\n\n---\n\n# 4.1 Thread Creation\n\nUn **hilo de ejecución** es una unidad secuencial de ejecución dentro de un proceso. A diferencia de los procesos creados con `fork`, todos los hilos creados dentro de un mismo proceso comparten el mismo espacio de direcciones (memoria global, variables estáticas, descriptores de archivos, etc.). Sin embargo, cada hilo mantiene su propio registro de instrucciones, pila (*stack*) para variables locales y estado de CPU.\n\nPara trabajar con hilos en Linux, se utiliza la librería POSIX Threads. Se debe incluir `<pthread.h>` y compilar enlazando la biblioteca con el flag `-pthread` (o `-lpthread`):\n\n```bash\ng++ -pthread -o programa programa.cpp\n```\n\nPara crear un hilo se utiliza la función `pthread_create`:\n\n```c\nint pthread_create(pthread_t *thread, const pthread_attr_t *attr,\n                   void *(*start_routine) (void *), void *arg);\n```\n\nEjemplo de un programa básico multihilo:\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\n// Función que ejecutará el hilo de forma asíncrona\nvoid* print_xs (void* unused) {\n    while (1) {\n        fputc ('x', stderr);\n    }\n    return NULL;\n}\n\nint main () {\n    pthread_t thread_id;\n    \n    // Crear el nuevo hilo para ejecutar la función print_xs\n    pthread_create (&thread_id, NULL, &print_xs, NULL);\n    \n    // El hilo principal imprime caracteres 'o' en la salida estándar\n    while (1) {\n        fputc ('o', stderr);\n    }\n    \n    return 0;\n}\n```\n\n---\n\n# 4.2 Thread Arguments\n\nLa función de inicio de un hilo acepta un único argumento de tipo puntero genérico `void*` y devuelve un resultado del mismo tipo `void*`. Esto permite pasar cualquier tipo de dato (incluyendo estructuras complejas) realizando un moldeado (*cast*).\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\nstruct thread_args {\n    char character;\n    int count;\n};\n\nvoid* char_print (void* parameters) {\n    struct thread_args* p = (struct thread_args*) parameters;\n    for (int i = 0; i < p->count; ++i) {\n        fputc (p->character, stderr);\n    }\n    return NULL;\n}\n\nint main () {\n    pthread_t thread1_id;\n    pthread_t thread2_id;\n    struct thread_args args1;\n    struct thread_args args2;\n\n    args1.character = 'x';\n    args1.count = 30000;\n    pthread_create (&thread1_id, NULL, &char_print, &args1);\n\n    args2.character = 'o';\n    args2.count = 20000;\n    pthread_create (&thread2_id, NULL, &char_print, &args2);\n\n    // Esperamos a que ambos hilos completen antes de salir de main\n    pthread_join (thread1_id, NULL);\n    pthread_join (thread2_id, NULL);\n\n    return 0;\n}\n```\n\n> [!warning] Cuidado con el ámbito de las variables\n> Si pasas un puntero a una variable local (en el stack) como argumento a un hilo, debes asegurarte de que esa variable no salga de su ámbito antes de que el hilo termine de leerla.\n\n---\n\n# 4.3 Thread Cancellation and Detaching\n\n---\n\n### Thread Cancellation\n\nUn hilo puede solicitar la finalización de otro hilo enviando una petición de cancelación mediante `pthread_cancel(thread_id)`.\n\nEl hilo receptor puede reaccionar de tres maneras dependiendo de su configuración de cancelación:\n1. **Asynchronous (Asíncrona):** El hilo es destruido de forma inmediata por el sistema en cualquier punto de su ejecución.\n2. **Deferred (Diferida, por defecto):** La cancelación se posterga hasta que el hilo alcanza un \"punto de cancelación\" (*cancellation point*), que son funciones del sistema que bloquean o realizan E/S (como `sleep`, `wait`, `write`, etc.).\n3. **Disabled (Deshabilitada):** Las solicitudes de cancelación se ignoran.\n\n---\n\n### Thread Detaching and Joining\n\nCuando un hilo finaliza, sus recursos (como su stack) no se liberan completamente de inmediato para permitir que otros hilos puedan leer su valor de retorno.\n\n- **Joining (Esperar):** La función `pthread_join` bloquea al hilo llamador hasta que el hilo especificado termina, liberando automáticamente los recursos de este último.\n- **Detaching (Desasociar):** Si no necesitas conocer el valor de retorno de un hilo y quieres que el sistema libere sus recursos de manera autónoma tan pronto como termine, puedes \"desasociarlo\" llamando a `pthread_detach(thread_id)` o creándolo con atributos de desasociación.\n\n```c\n// Desasocia el hilo actual a sí mismo\npthread_detach (pthread_self ());\n```\n\n---\n\n# 4.4 Thread-Specific Data\n\nEn un programa multihilo, las variables locales en funciones son privadas para cada hilo (porque se almacenan en su propio stack), pero las variables globales y estáticas son compartidas.\n\nSi necesitas una variable que actúe como \"global\" pero que guarde un valor único y separado para cada hilo individual, puedes utilizar **Thread-Specific Data (TSD)**.\n\nPthreads provee un mecanismo mediante llaves de acceso (`pthread_key_t`):\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\npthread_key_t log_key;\n\nvoid write_to_log (const char* message) {\n    FILE* log_file = (FILE*) pthread_getspecific (log_key);\n    fprintf (log_file, \"%s\\n\", message);\n}\n\nvoid close_log_file (void* thread_log) {\n    fclose ((FILE*) thread_log);\n}\n\nvoid* thread_function (void* arg) {\n    char filename[20];\n    sprintf (filename, \"thread_%u.log\", (unsigned int)pthread_self());\n    FILE* log_file = fopen (filename, \"w\");\n    \n    // Asociar el puntero del archivo de log a la llave TSD para este hilo\n    pthread_setspecific (log_key, log_file);\n\n    write_to_log (\"Hilo inicializado.\");\n    /* ... código ... */\n    \n    return NULL;\n}\n\nint main () {\n    // Crear la llave común y registrar una función destructora\n    // que se ejecuta automáticamente cuando cada hilo termina.\n    pthread_key_create (&log_key, close_log_file);\n\n    /* ... crear hilos que llamen a thread_function ... */\n\n    return 0;\n}\n```\n\n---\n\n# 4.5 Thread Synchronization and Critical Sections\n\nCuando múltiples hilos modifican las mismas variables de forma simultánea, se pueden producir **condiciones de carrera (race conditions)**, dando lugar a datos corruptos o comportamientos impredecibles. Las secciones de código que acceden a recursos compartidos se conocen como **secciones críticas (critical sections)** y deben protegerse mediante mecanismos de sincronización.\n\n---\n\n### Mutexes\n\nUn **mutex** (abreviatura de *mutual exclusion*) es un cerrojo lógico que permite que solo un hilo acceda a la sección crítica a la vez.\n\n- `pthread_mutex_init`: Inicializa un mutex.\n- `pthread_mutex_lock`: Intenta bloquear el mutex. Si ya está bloqueado por otro hilo, el hilo actual se suspende hasta que quede libre.\n- `pthread_mutex_unlock`: Desbloquea el mutex, permitiendo que otros hilos continúen.\n\n```c\n#include <pthread.h>\n\nfloat account_balance = 1000.0;\npthread_mutex_t balance_mutex = PTHREAD_MUTEX_INITIALIZER;\n\nvoid* withdraw (void* arg) {\n    float amount = *(float*)arg;\n\n    pthread_mutex_lock (&balance_mutex);\n    // Sección Crítica\n    if (account_balance >= amount) {\n        account_balance -= amount;\n    }\n    pthread_mutex_unlock (&balance_mutex);\n\n    return NULL;\n}\n```\n\n---\n\n### Semaphore Basics\n\nUn **semáforo** es un contador protegido que permite controlar el acceso a un número limitado de recursos compartidos idénticos.\n\n- Si el valor del semáforo es mayor que cero, un hilo puede decrementarlo (`sem_wait`) y continuar de inmediato.\n- Si es cero, el hilo se bloquea hasta que otro hilo incremente el semáforo (`sem_post`).\n\nRequiere incluir `<semaphore.h>`.\n\n---\n\n### Condition Variables\n\nLas **variables de condición (condition variables)** permiten que un hilo se suspenda de forma eficiente hasta que se cumpla una condición arbitraria compleja (por ejemplo, \"la cola de tareas ya no está vacía\"), evitando el consumo innecesario de CPU por consulta continua (*polling*).\n\nUna variable de condición (`pthread_cond_t`) siempre se utiliza en combinación con un mutex:\n\n```c\n#include <pthread.h>\n\nint task_ready = 0;\npthread_mutex_t task_mutex = PTHREAD_MUTEX_INITIALIZER;\npthread_cond_t task_cond = PTHREAD_COND_INITIALIZER;\n\nvoid* consumer (void* arg) {\n    pthread_mutex_lock (&task_mutex);\n    while (!task_ready) {\n        // Libera temporalmente el mutex y suspende el hilo.\n        // Al despertar, vuelve a adquirir automáticamente el mutex.\n        pthread_cond_wait (&task_cond, &task_mutex);\n    }\n    // Procesar la tarea...\n    pthread_mutex_unlock (&task_mutex);\n    return NULL;\n}\n\nvoid set_task_ready () {\n    pthread_mutex_lock (&task_mutex);\n    task_ready = 1;\n    // Despierta a un hilo suspendido en la variable de condición\n    pthread_cond_signal (&task_cond);\n    pthread_mutex_unlock (&task_mutex);\n}\n```\n\n---\n\n# 4.6 GNU/Linux Thread Implementation\n\nHistóricamente, Linux implementaba hilos mediante la biblioteca **LinuxThreads**, la cual representaba cada hilo como un proceso individual en el kernel. Esto presentaba limitaciones significativas en cuanto a la conformidad con el estándar POSIX (por ejemplo, los hilos tenían PIDs diferentes, y el manejo de señales no se compartía adecuadamente).\n\nLos sistemas modernos GNU/Linux utilizan **NPTL (Native POSIX Thread Library)**. Con NPTL, un proceso multihilo se representa de forma nativa y eficiente en el kernel de Linux. Todos los hilos comparten el mismo PID, permitiendo una conformidad total con POSIX, una sincronización de exclusión mutua de altísimo rendimiento basada en *futexes* (fast userspace mutexes) y la capacidad de gestionar miles de hilos concurrentes de manera fluida.",
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Threads.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "He creado los archivos Markdown para los capítulos 3 y 4 del libro *Advanced Linux Programming*, adaptados al formato del capítulo 1 (`Getting Started.md`).\n\nLos archivos han sido creados en el directorio `LP3/`:\n\n1. **Capítulo 3: Processes.md** (`C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Processes.md`)\n   - Cubre identificadores de procesos (`PID`), duplicación y ejecución (`fork` y `exec`), estados de procesos, códigos de salida, espera de terminación, limpieza preventiva de procesos zombi (`SIGCHLD`), señales de software y conceptos de grupos de procesos y sesiones.\n\n2. **Capítulo 4: Threads.md** (`C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Threads.md`)\n   - Cubre creación de hilos (Pthreads), paso de argumentos, cancelación, unión y desasociación (`join` y `detach`), datos específicos por hilo (`TSD` / `pthread_key_t`), sincronización de secciones críticas mediante mutexes, semáforos y variables de condición, así como detalles de la implementación nativa `NPTL` en Linux.\n\nAmbos archivos mantienen rigurosamente:\n- Las reglas de sintaxis de Obsidian Flavored Markdown (enlaces clickable `[[#Sección]]` y bloques de avisos como `> [!warning]` o `> [!info]`).\n- La regla de dejar siempre una línea en blanco antes de cada tabla Markdown para garantizar su correcto renderizado en Obsidian."
+        }
+      ],
+      "timestamp": "2026-08-20T02:57:03.879Z"
+    }
+  ],
+  "savedAt": "2026-08-20T02:57:04.708Z"
+}

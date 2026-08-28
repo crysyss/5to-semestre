@@ -39,6 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
+    "//TOM",
+    "//F2",
+    "//Tags",
     "//LP3"
   ],
   "expandFolderOnClick": true,
@@ -55,7 +58,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": true,
+  "inlineContextExpanded": false,
   "inlineContextProperties": true,
   "inlineContextSectionsExpanded": true,
   "banners": true,

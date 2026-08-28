@@ -4,22 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "8d266d15f8ba8285",
+        "id": "68a6f84b8ea0cd97",
         "type": "tabs",
         "children": [
           {
-            "id": "ec392b380bc7477e",
+            "id": "cb6f94626b500c93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Unidad I.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unidad I"
+            }
+          },
+          {
+            "id": "90ed49163217d90c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "LP3/Advanced_Linux_Programming.pdf"
+                "file": "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Advanced_Linux_Programming"
+              "title": "Sears_Zemansky_Fisica_Universitaria_Vol_2"
+            }
+          },
+          {
+            "id": "1990a2fe39fdde66",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "F2/Material de Lectura2 .pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Material de Lectura2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +105,7 @@
             }
           },
           {
-            "id": "c51ab9676217b840",
+            "id": "ea0cca3c3c22e3ca",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -92,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "febe18bd59b062ed",
@@ -168,6 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "F2/Material de Lectura2 .pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 325.5999755859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,26 +259,32 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "LP3/Chp3_Procesos.pdf",
-    "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
-    "LP3/Chp3 Procesos.pdf",
+    "F2/Material de Lectura2 .pdf",
+    "F2/Unidad I.md",
     "LP3/Advanced_Linux_Programming.pdf",
-    "LP3/Getting Started.md",
+    "LP3/Threads.md",
+    "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
+    "LP3/Processes.md",
+    "F2/Serway_Fisica_Vol_2.pdf",
+    "F2/Material de lectura unidad 1.pdf",
+    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
     "Tags",
-    "LP3/extract.js",
-    "Java.md",
-    "2026-W34.md",
+    "F2/Material de lectura Unidad III.pdf",
+    "LP3/Writing Local Programs.md",
+    "LP3/Chp3_Procesos.pdf",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
+    "Recursos/20251018113518.png",
+    "Recursos/20251018113612.png",
+    "Recursos/20251018112326.png",
     "TOM/Clase 2.md",
     "TOM/Tareas.md",
-    "F2",
-    "LP3",
-    "IO1",
+    "LP3/Getting Started.md",
+    "Java.md",
+    "2026-W34.md",
     "Sin título.md",
     "conflict-files-obsidian-git.md",
     "Sin título.canvas",
     "TOM/Sin título.md",
-    "TOM",
     "Bienvenido.md"
   ]
 }

@@ -36,7 +36,7 @@
       "command": "vibe-acp",
       "args": [],
       "env": [],
-      "enabled": true
+      "enabled": false
     },
     "opencode": {
       "id": "opencode",
@@ -58,7 +58,7 @@
         "acp"
       ],
       "env": [],
-      "enabled": true
+      "enabled": false
     },
     "hermes-agent": {
       "id": "hermes-agent",
@@ -69,11 +69,11 @@
         "acp"
       ],
       "env": [],
-      "enabled": true
+      "enabled": false
     }
   },
   "customAgents": [],
-  "defaultAgentId": "mistral-vibe",
+  "defaultAgentId": "opencode",
   "autoAllowPermissions": false,
   "autoMentionActiveNote": true,
   "expandWikilinkContext": true,
@@ -108,18 +108,42 @@
     "showEmojis": true,
     "fontSize": null
   },
-  "savedSessions": [],
+  "savedSessions": [
+    {
+      "sessionId": "ses_fc1c7c632ffea8GFD1P8N5bMLx",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Necesito que hagas un .md de la primera unidad ...",
+      "createdAt": "2026-08-26T13:22:56.485Z",
+      "updatedAt": "2026-08-26T13:28:04.663Z"
+    },
+    {
+      "sessionId": "ses_fe2ef114cffevpsnntbcuX66MJ",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Haz un .md del capitulo 2 del libro advanced_pr...",
+      "createdAt": "2026-08-20T02:48:56.793Z",
+      "updatedAt": "2026-08-20T02:57:04.707Z"
+    }
+  ],
   "lastUsedModels": {
-    "opencode": "google/gemini-3.7-flash"
+    "opencode": "google/gemini-3.5-flash"
   },
   "lastUsedModes": {},
-  "lastUsedConfigOptions": {},
+  "lastUsedConfigOptions": {
+    "opencode": {
+      "effort": "low"
+    }
+  },
   "enableFloatingChat": false,
   "floatingButtonImage": "",
   "floatingWindowSize": {
     "width": 400,
     "height": 500
   },
-  "floatingWindowPosition": null,
+  "floatingWindowPosition": {
+    "x": 1086,
+    "y": 266
+  },
   "floatingButtonPosition": null
 }
