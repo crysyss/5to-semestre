@@ -5,7 +5,7 @@
   "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
   "title": "Necesito que hagas un .md de la primera unidad ...",
   "createdAt": "2026-08-26T13:22:56.485Z",
-  "updatedAt": "2026-08-26T13:22:56.494Z",
+  "updatedAt": "2026-08-28T00:50:00.256Z",
   "messages": [
     {
       "id": "d60abf23-ae3b-45df-bf1a-6626ac5d618f",
@@ -141,7 +141,237 @@
         }
       ],
       "timestamp": "2026-08-26T13:28:03.756Z"
+    },
+    {
+      "id": "989955c6-dff6-4dac-bda6-31047507280a",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ahora haz uno de la segunda unidad"
+        }
+      ],
+      "timestamp": "2026-08-28T00:24:12.248Z"
+    },
+    {
+      "id": "ce58c0bb-a9b3-4973-8447-9fbc6343da31",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "lxfYSMYarl7uLCBF",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "*Unidad*"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:43:44.974Z"
+    },
+    {
+      "id": "8dce3679-7339-4940-9274-11ae5806ce56",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "YTiLh9mpnDSTbiE3",
+          "title": "glob",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "*F2*/*"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:43:44.974Z"
+    },
+    {
+      "id": "714a7e1d-23f3-4d83-a81e-c333c935cb41",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "i4W8WAkFWBXpEZWC",
+          "title": "F2\\Material de Lectura2 .pdf",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Material de Lectura2 .pdf"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Material de Lectura2 .pdf"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:43:44.974Z"
+    },
+    {
+      "id": "4a5c6a46-08ad-4dc8-b108-148328192604",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "qdyelFyhrPtvwfFH",
+          "title": "F2\\Potencial Eléctrico y Capacitancia.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Potencial Eléctrico y Capacitancia.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Potencial Eléctrico y Capacitancia.md",
+            "content": "# Potencial Eléctrico y Capacitancia\n\n## Índice General\n\n- [[#Trabajo y Energía en Campos Eléctricos]]\n    - [[#Fuerza Conservativa y Trabajo Eléctrico]]\n    - [[#Energía Potencial Eléctrica]]\n- [[#Potencial Eléctrico y Diferencia de Potencial]]\n    - [[#Definición de Potencial Eléctrico]]\n    - [[#Diferencia de Potencial y Movimiento de Cargas]]\n    - [[#Superficies Equipotenciales]]\n    - [[#Potencial debido a Distribuciones Continuas]]\n    - [[#Relación entre Potencial y Campo Eléctrico]]\n- [[#Capacitancia y Capacitores]]\n    - [[#Rigidez Dieléctrica y Descarga de Corona]]\n    - [[#Capacitancia Definición y Factores]]\n    - [[#Capacitor de Placas Paralelas]]\n    - [[#Dieléctricos en Capacitores]]\n- [[#Circuitos con Capacitores]]\n    - [[#Conexión en Serie]]\n    - [[#Conexión en Paralelo]]\n- [[#Energía Almacenada]]\n    - [[#Energía en un Capacitor]]\n    - [[#Densidad de Energía en un Campo Eléctrico]]\n- [[#Dipolo Eléctrico]]\n    - [[#Momento Dipolar Eléctrico]]\n    - [[#Efecto de un Campo Externo Uniforme]]\n    - [[#Polarización de Dieléctricos]]\n\n---\n\n## Trabajo y Energía en Campos Eléctricos\n\n### Fuerza Conservativa y Trabajo Eléctrico\nLa fuerza eléctrica $\\vec{F}$ ejercida por un campo sobre una carga de prueba es una **fuerza conservativa**:\n* El trabajo realizado por la fuerza eléctrica sobre una trayectoria cerrada es cero ($\\oint \\vec{F} \\cdot d\\vec{r} = 0$).\n* El trabajo depende únicamente de las posiciones inicial y final de la carga, no de la trayectoria recorrida.\n\nEl trabajo infinitesimal $dW$ realizado por la fuerza eléctrica al desplazar una carga en un diferencial $d\\vec{r}$ es:\n$$dW = \\vec{F} \\cdot d\\vec{r}$$\n\nPara mover una carga puntual $q$ entre los puntos $r_1$ y $r_2$ en el campo radial de una carga fija $Q$:\n$$W_{1 \\to 2} = \\int_{r_1}^{r_2} K \\frac{qQ}{r^2} dr = K q Q \\left( \\frac{1}{r_1} - \\frac{1}{r_2} \\right)$$\n\n> 💡 **Signo del Trabajo:**\n> * **Trabajo motor ($W > 0$):** El desplazamiento es espontáneo, en el sentido de la fuerza eléctrica.\n> * **Trabajo resistente ($W < 0$):** El desplazamiento es contra la fuerza eléctrica, requiere un agente externo.\n\n### Energía Potencial Eléctrica\nTomando como nivel de referencia cero el infinito ($r_2 \\to \\infty$, $U_\\infty = 0$), la energía potencial eléctrica $U$ de un sistema formado por dos cargas puntuales $Q$ y $q$ separadas una distancia $r$ es:\n\n$$U = K \\frac{qQ}{r}$$\n\nRelación entre trabajo y variación de energía potencial:\n$$W_{1 \\to 2} = U_1 - U_2 = -\\Delta U$$\n\n* **Atención:** En las fórmulas de energía potencial y trabajo, las cargas **deben ingresarse con sus respectivos signos ($+$ o $-$)**.\n\n---\n\n## Potencial Eléctrico y Diferencia de Potencial\n\n### Definición de Potencial Eléctrico\nEl potencial eléctrico $V$ en un punto del espacio es una **magnitud escalar** que representa la energía potencial por unidad de carga de prueba positiva $q$:\n\n$$V = \\frac{U}{q}$$\n\nPara una carga puntual $Q$ a una distancia $r$:\n$$V = K \\frac{Q}{r}$$\n\nUnidad en el Sistema Internacional: **Volt (V)** $\\rightarrow 1 \\text{ V} = 1 \\text{ J/C}$.\n\nPara un conjunto de cargas puntuales, el potencial total es la **suma algebraica** (escalar) de los potenciales de cada carga:\n$$V = \\sum_{i} K \\frac{Q_i}{r_i}$$\n\n### Diferencia de Potencial y Movimiento de Cargas\nLa diferencia de potencial entre dos puntos $A$ y $B$ ($\\Delta V = V_B - V_A$) representa el trabajo por unidad de carga realizado contra el campo.\n\nEl trabajo realizado por el campo eléctrico para desplazar una carga $q$ desde $A$ hasta $B$ es:\n$$W_{A \\to B} = q (V_A - V_B) = -q \\Delta V$$\n\n> 🧭 **Reglas para el movimiento espontáneo de cargas:**\n> * **Cargas positivas ($+$):** Se desplazan espontáneamente de puntos de **mayor potencial a menor potencial** ($V_A > V_B$).\n> * **Cargas negativas ($-$):** Se desplazan espontáneamente de puntos de **menor potencial a mayor potencial** ($V_A < V_B$).\n> * **Recorrer una línea de campo:** En el sentido de las líneas de campo eléctrico, el potencial eléctrico **siempre disminuye**.\n\n### Superficies Equipotenciales\nUna superficie equipotencial es el lugar geométrico de todos los puntos que están al mismo potencial eléctrico.\n\n* **Propiedad fundamental:** Las líneas de campo eléctrico son siempre **perpendiculares (normales)** a las superficies equipotenciales en cada punto.\n* No se requiere trabajo para mover una carga a lo largo de una superficie equipotencial ($W = 0$ ya que $\\Delta V = 0$).\n* La superficie de cualquier conductor en equilibrio electrostático es una superficie equipotencial.\n\n### Potencial debido a Distribuciones Continuas\n\n1. **A partir de los elementos de carga $dq$:**\n   $$V = K \\int \\frac{dq}{r}$$\n\n2. **A partir del campo eléctrico conocido ($\\vec{E}$):**\n   $$V_B - V_A = -\\int_{A}^{B} \\vec{E} \\cdot d\\vec{s}$$\n\n### Relación entre Potencial y Campo Eléctrico\nEl campo eléctrico es el gradiente negativo del potencial eléctrico:\n\n$$\\vec{E} = -\\nabla V$$\n\nComponentes rectangulares del campo eléctrico:\n\n$$E_x = -\\frac{\\partial V}{\\partial x}, \\quad E_y = -\\frac{\\partial V}{\\partial y}, \\quad E_z = -\\frac{\\partial V}{\\partial z}$$\n\n---\n\n## Capacitancia y Capacitores\n\n### Rigidez Dieléctrica y Descarga de Corona\n* **Rigidez Dieléctrica:** Magnitud máxima del campo eléctrico que puede soportar un material aislante antes de ionizarse y volverse conductor. Para el aire seco a 1 atm:\n  $$E_{\\text{máx}} \\approx 3 \\times 10^6 \\text{ V/m} \\quad (3 \\text{ MN/C})$$\n* **Poder de las Puntas (Descarga de Corona):** En la superficie de un conductor, la densidad de carga $\\sigma$ y el campo $\\vec{E}$ son mayores en las zonas de mayor curvatura (menor radio). En superficies puntiagudas, el campo puede superar la rigidez dieléctrica del aire produciendo fugas de carga visibles como destellos violeta.\n\n### Capacitancia: Definición y Factores\nLa capacitancia $C$ es la propiedad de un dispositivo (capacitor) para almacenar carga eléctrica por unidad de diferencia de potencial:\n\n$$C = \\frac{Q}{V}$$\n\nUnidad en el S.I.: **Faradio (F)** $\\rightarrow 1 \\text{ F} = 1 \\text{ C/V}$.\n\n> 💡 **Principio clave:** La capacitancia $C$ es **constante** para un conductor o capacitor dado; **NO depende** de la carga $Q$ ni del voltaje $V$. Depende únicamente de la geometría (forma, tamaño, separación) y de la naturaleza del medio (dieléctrico).\n\n### Capacitor de Placas Paralelas\nDos placas conductoras de área $A$ separadas por una distancia $d$:\n\n* Campo eléctrico interno: $E = \\frac{\\sigma}{\\varepsilon_0} = \\frac{Q}{\\varepsilon_0 A}$\n* Voltaje entre placas: $\\Delta V = E d = \\frac{Q d}{\\varepsilon_0 A}$\n* **Capacitancia en el vacío:**\n  $$C_0 = \\frac{\\varepsilon_0 A}{d}$$\n\n### Dieléctricos en Capacitores\nAl introducir un material no conductor (dieléctrico) con constante dieléctrica $k$ ($k > 1$) llenando el espacio entre placas:\n\n* Reducción del voltaje (si la carga $Q$ se mantiene constante):\n  $$\\Delta V = \\frac{\\Delta V_0}{k}$$\n* **Aumento de la capacitancia:**\n  $$C = k C_0$$\n\n> 📌 **Ventajas de usar un dieléctrico:**\n> 1. Aumenta la capacitancia ($C = k C_0$).\n> 2. Incrementa el voltaje máximo de operación (mayor rigidez dieléctrica).\n> 3. Brinda soporte mecánico a las placas, permitiendo aproximarlas sin que se toquen (reduce $d$).\n\n---\n\n## Circuitos con Capacitores\n\nDeberás dejar una línea en blanco antes de cada tabla para asegurar su renderizado en Obsidian.\n\n| Parámetro | Conexión en Serie | Conexión en Paralelo |\n| :--- | :--- | :--- |\n| **Esquema visual** | Conectados en la misma línea | Conectados entre los mismos nodos |\n| **Carga ($Q$)** | Igual en cada capacitor: <br> $Q_{\\text{eq}} = Q_1 = Q_2 = \\dots$ | Se divide en cada rama: <br> $Q_{\\text{eq}} = Q_1 + Q_2 + \\dots$ |\n| **Voltaje ($\\Delta V$)** | Se divide entre capacitores: <br> $\\Delta V_{\\text{total}} = \\Delta V_1 + \\Delta V_2 + \\dots$ | Igual en todos los capacitores: <br> $\\Delta V_{\\text{total}} = \\Delta V_1 = \\Delta V_2 = \\dots$ |\n| **Capacitancia Equivalente ($C_{\\text{eq}}$)** | $$\\frac{1}{C_{\\text{eq}}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots$$ | $$C_{\\text{eq}} = C_1 + C_2 + \\dots$$ |\n\n---\n\n## Energía Almacenada\n\n### Energía en un Capacitor\nEl trabajo realizado para cargar un capacitor desde $q=0$ hasta $q=Q$ queda almacenado como energía potencial eléctrica $U$:\n\n$$U = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} C (\\Delta V)^2 = \\frac{1}{2} Q \\Delta V$$\n\n### Densidad de Energía en un Campo Eléctrico\nLa energía potencial por unidad de volumen ($u$) almacenada en el campo eléctrico entre las placas de un capacitor (o en cualquier región con campo $\\vec{E}$ en el vacío) es:\n\n$$u = \\frac{U}{\\text{Volumen}} = \\frac{1}{2} \\varepsilon_0 E^2$$\n\nUnidades S.I.: **$\\text{J/m}^3$**.\n\n---\n\n## Dipolo Eléctrico\n\nUn dipolo eléctrico es un sistema formado por dos cargas de igual magnitud y signos opuestos ($+q$ y $-q$) separadas por una distancia pequeña.\n\n### Momento Dipolar Eléctrico\nSe define vectorialmente como:\n\n$$\\vec{p} = q \\Delta \\vec{r}$$\n\nDonde:\n* $\\Delta \\vec{r}$: Vector de posición relativa que apunta **desde la carga negativa hacia la carga positiva**.\n* Magnitud: $p = q d$.\n* Unidad S.I.: **Coulomb-metro ($\\text{C}\\cdot\\text{m}$)**.\n\nPara distribuciones discretas y continuas:\n$$\\vec{p} = \\sum_{i} q_i \\vec{r}_i = \\int \\vec{r} dq$$\n\n### Efecto de un Campo Externo Uniforme $\\vec{E}_0$\n\n1. **Fuerza Neta ($\\vec{F}_{\\text{net}}$):**\n   $$\\vec{F}_{\\text{net}} = (+q)\\vec{E}_0 + (-q)\\vec{E}_0 = 0$$\n   *(El centro de masa del dipolo no se desplaza).*\n\n2. **Torque o Momento de Par ($\\vec{M}$ o $\\vec{\\tau}$):**\n   $$\\vec{M} = \\vec{p} \\times \\vec{E}_0$$\n   * Magnitud: $M = p E_0 \\sin\\theta$.\n   * **Efecto:** El torque hace girar al dipolo hasta alinearlo en la misma dirección y sentido del campo eléctrico $\\vec{E}_0$.\n\n### Polarización de Dieléctricos\nAl colocar un dieléctrico en un campo eléctrico externo $\\vec{E}_0$:\n* Los dipolos de los átomos o moléculas se reorientan alineándose con el campo.\n* Aparece un campo inducido opuesto $\\vec{E}_{\\text{ind}}$ generado por las cargas polarizadas en las superficies del aislante.\n* **Campo resultando en el interior del dieléctrico:**\n\n$$\\vec{E}_{\\text{int}} = \\vec{E}_0 - \\vec{E}_{\\text{ind}}$$\n\n> 📉 **Efecto Neto:** El dieléctrico **reduce** la magnitud del campo eléctrico interno en un factor $k$:\n> $$E_{\\text{int}} = \\frac{E_0}{k}$$\n"
+          }
+        },
+        {
+          "type": "text",
+          "text": "He creado el apunte completo para la **Unidad II: Potencial Eléctrico y Capacitancia** en la siguiente ubicación:\n`C:/Users/joaqu/Documents/5to-semestre/F2/Potencial Eléctrico y Capacitancia.md`\n\n### Aspectos clave destacados en esta segunda unidad:\n\n1. **Sintaxis OFM y Math:** Uso estricto de `$` para notación en línea y `$$` para fórmulas en bloques principales de memorización.\n2. **Índice Interactivo:** Navegación interna por `[[#Subtítulo]]` estructurada al estilo de [[Java]].\n3. **Reglas Teóricas Frecuentes:**\n   * **Criterios de Signos:** Recordatorios sobre el ingreso con signo de cargas en fórmulas escalares de trabajo/potencial.\n   * **Superficies Equipotenciales:** Ortogonalidad con las líneas de campo eléctrico.\n   * **Conductores y Dieléctricos:** Rigidez dieléctrica, poder de las puntas/descarga de corona, y constante dieléctrica $k$.\n4. **Tabla comparativa:** Tabla resumiendo circuitos de capacitores en **Serie vs Paralelo** precedida por la correspondiente línea en blanco para su correcto renderizado en Obsidian.\n5. **Formulario Esencial:** Destacado de fórmulas clave para trabajo, potencial puntual/continuo, capacitancia, dipolos eléctricos y densidad energética $u = \\frac{1}{2}\\varepsilon_0 E^2$."
+        }
+      ],
+      "timestamp": "2026-08-28T00:43:44.974Z"
+    },
+    {
+      "id": "8290b3c5-2350-4b1f-baa3-dc186830cb27",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Haz un formulario con todas las formulas que deberia de saber de  @[[Unidad I]] y  @[[Potencial Eléctrico y Capacitancia]]",
+          "autoMentionContext": {
+            "noteName": "Potencial Eléctrico y Capacitancia",
+            "notePath": "F2/Potencial Eléctrico y Capacitancia.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:44:32.121Z"
+    },
+    {
+      "id": "5d6d66d7-9dd4-4483-ac8a-285296723aa3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "rn5mhXpY0ty83Gsg",
+          "title": "F2\\Unidad I.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Unidad I.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Unidad I.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:44:39.280Z"
+    },
+    {
+      "id": "ca4cbf84-bddb-4c6e-b7fb-d3587625a39e",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Haz un formulario con todas las formulas que deberia de saber de  @[[Unidad I]] y   @[[Unidad II]]",
+          "autoMentionContext": {
+            "noteName": "Potencial Eléctrico y Capacitancia",
+            "notePath": "F2/Potencial Eléctrico y Capacitancia.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:45:20.792Z"
+    },
+    {
+      "id": "6b5f11f3-2ede-45d6-a064-da39af0fcb5d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "He creado el archivo del formulario completo para las **Unidades I y II** de Física II en la siguiente ruta:\n`C:/Users/joaqu/Documents/5to-semestre/F2/Formulario Unidades I y II.md`\n\nEl formulario está estructurado con sintaxis estricta de **Obsidian Flavored Markdown** (`$` e inline y `$$` en bloques) e incluye enlaces `[[#Sección]]` para navegación rápida.\n\n---\n\n# Formulario Fundamental de Física II (Unidades I y II)\n\n## Índice del Formulario\n\n- [[#Constantes Universales y Unidades]]\n- [[#1. Electrostática Carga y Ley de Coulomb]]\n- [[#2. Campo Eléctrico E]]\n- [[#3. Densidades de Carga y Distribuciones Continuas]]\n- [[#4. Movimiento de Partículas Cargadas]]\n- [[#5. Flujo Eléctrico y Ley de Gauss]]\n- [[#6. Trabajo y Energía Potencial Eléctrica]]\n- [[#7. Potencial Eléctrico V]]\n- [[#8. Capacitancia y Capacitores]]\n- [[#9. Combinación de Capacitores en Circuitos]]\n- [[#10. Energía Almacenada en Capacitores y Campos]]\n- [[#11. Dipolo Eléctrico]]\n\n---\n\n## Constantes Universales y Unidades\n\n| Magnitud / Constante | Símbolo | Valor / Equivalencia S.I. |\n| :--- | :---: | :--- |\n| **Carga elemental** | $e$ | $1.6 \\times 10^{-19} \\text{ C}$ |\n| **Constante de Coulomb** | $K$ | $K = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9 \\times 10^9 \\text{ N}\\cdot\\text{m}^2/\\text{C}^2$ |\n| **Permeabilidad del vacío** | $\\varepsilon_0$ | $8.85 \\times 10^{-12} \\text{ C}^2/(\\text{N}\\cdot\\text{m}^2)$ |\n| **Masa del electrón** | $m_e$ | $9.11 \\times 10^{-31} \\text{ kg}$ |\n| **Masa del protón** | $m_p$ | $1.67 \\times 10^{-27} \\text{ kg}$ |\n| **Voltio** | $\\text{V}$ | $1 \\text{ V} = 1 \\text{ J/C}$ |\n| **Faradio** | $\\text{F}$ | $1 \\text{ F} = 1 \\text{ C/V}$ |\n\n---\n\n## 1. Electrostática: Carga y Ley de Coulomb\n\n* **Cuantización de la carga:**\n  $$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$\n\n* **Contacto entre conductores idénticos:**\n  $$q_1' = q_2' = \\frac{q_1 + q_2}{2}$$\n\n* **Ley de Coulomb (Fuerza puntual):**\n  $$\\vec{F} = K \\frac{q_1 q_2}{r^2} \\hat{e}_r$$\n\n* **Superposición de fuerzas:**\n  $$\\vec{F}_{\\text{net}} = \\sum_{i} \\vec{F}_i$$\n\n---\n\n## 2. Campo Eléctrico ($\\vec{E}$)\n\n* **Definición de campo eléctrico:**\n  $$\\vec{E} = \\frac{\\vec{F}}{q_0}$$\n\n* **Campo de una carga puntual:**\n  $$\\vec{E} = K \\frac{q}{r^2} \\hat{e}_r$$\n\n* **Superposición de campos:**\n  $$\\vec{E}_{\\text{net}} = \\sum_{i} \\vec{E}_i$$\n\n---\n\n## 3. Densidades de Carga y Distribuciones Continuas\n\n| Tipo de Distribución | Uniforme | No Uniforme | Unidades |\n| :--- | :---: | :---: | :---: |\n| **Lineal ($\\lambda$)** | $\\lambda = \\frac{Q}{l}$ | $\\lambda = \\frac{dq}{dl}$ | $\\text{C/m}$ |\n| **Superficial ($\\sigma$)** | $\\sigma = \\frac{Q}{A}$ | $\\sigma = \\frac{dq}{dA}$ | $\\text{C/m}^2$ |\n| **Volumétrica ($\\rho$)** | $\\rho = \\frac{Q}{V}$ | $\\rho = \\frac{dq}{dV}$ | $\\text{C/m}^3$ |\n\n* **Campo continuo general:**\n  $$\\vec{E} = K \\int \\frac{dq}{r^2} \\hat{r}$$\n\n### Resultados Clásicos de Campo Eléctrico ($\\vec{E}$)\n\n* **Línea de carga finita (longitud $l$, a una distancia $a$ de un extremo):**\n  $$E = K \\frac{Q}{a(l + a)}$$\n\n* **Anillo de carga (radio $a$, en el eje a una distancia $x$ del centro):**\n  $$E_x = K \\frac{x Q}{(x^2 + a^2)^{3/2}}$$\n\n* **Disco cargado uniformemente (radio $R$, en el eje a una distancia $x$):**\n  $$E = 2\\pi K \\sigma \\left( 1 - \\frac{x}{\\sqrt{R^2 + x^2}} \\right)$$\n\n---\n\n## 4. Movimiento de Partículas Cargadas\n\n* **Aceleración en campo uniforme:**\n  $$\\vec{a} = \\frac{q\\vec{E}}{m}$$\n\n* **Ecuaciones cinemáticas ($\\vec{E}$ uniforme en $\\hat{y}$):**\n  $$v_x = v_{0x} = \\text{cte}$$\n  $$v_y = v_{0y} + a_y t$$\n  $$y = y_0 + v_{0y} t + \\frac{1}{2} a_y t^2$$\n\n---\n\n## 5. Flujo Eléctrico y Ley de Gauss\n\n* **Flujo eléctrico uniforme en superficie plana:**\n  $$\\Phi_E = \\vec{E} \\cdot \\vec{A} = E A \\cos\\theta$$\n\n* **Flujo eléctrico en superficie general:**\n  $$\\Phi_E = \\int \\vec{E} \\cdot d\\vec{A}$$\n\n* **Ley de Gauss (Superficie cerrada):**\n  $$\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{\\text{enc}}}{\\varepsilon_0}$$\n\n### Resultados Directos por Ley de Gauss\n\n* **Esfera aislante sólida (radio $a$, carga $Q$):**\n  * Exterior ($r \\ge a$): $$E = K \\frac{Q}{r^2}$$\n  * Interior ($r < a$): $$E = K \\frac{Q}{a^3} r$$\n\n* **Línea infinita de carga (densidad $\\lambda$):**\n  $$E = \\frac{\\lambda}{2\\pi \\varepsilon_0 r} = \\frac{2K\\lambda}{r}$$\n\n* **Plano infinito de carga (densidad $\\sigma$):**\n  $$E = \\frac{\\sigma}{2\\varepsilon_0}$$\n\n* **Superficie exterior de un conductor en equilibrio:**\n  $$E = \\frac{\\sigma}{\\varepsilon_0}$$\n\n---\n\n## 6. Trabajo y Energía Potencial Eléctrica\n\n> ⚠️ **Recordatorio crucial:** En todas las fórmulas de esta sección, las cargas $q$ y $Q$ **entran con sus respectivos signos ($+$ o $-$)**.\n\n* **Trabajo de la fuerza eléctrica entre dos puntos:**\n  $$W_{1 \\to 2} = \\int_{r_1}^{r_2} \\vec{F} \\cdot d\\vec{r} = K q Q \\left( \\frac{1}{r_1} - \\frac{1}{r_2} \\right)$$\n\n* **Energía potencial entre dos cargas puntuales:**\n  $$U = K \\frac{q Q}{r}$$\n\n* **Energía potencial de un sistema discreto:**\n  $$U_{\\text{total}} = \\sum_{i < j} K \\frac{q_i q_j}{r_{ij}}$$\n\n* **Relación trabajo y energía potencial:**\n  $$W_{1 \\to 2} = U_1 - U_2 = -\\Delta U$$\n\n---\n\n## 7. Potencial Eléctrico ($V$)\n\n* **Definición general:**\n  $$V = \\frac{U}{q_0}$$\n\n* **Potencial de una carga puntual:**\n  $$V = K \\frac{Q}{r}$$\n\n* **Potencial de múltiples cargas puntuales:**\n  $$V = \\sum_{i} K \\frac{Q_i}{r_i}$$\n\n* **Potencial de una distribución continua:**\n  $$V = K \\int \\frac{dq}{r}$$\n\n* **Diferencia de potencial a partir del campo $\\vec{E}$:**\n  $$\\Delta V = V_B - V_A = -\\int_{A}^{B} \\vec{E} \\cdot d\\vec{s}$$\n\n* **Trabajo del campo en función de la diferencia de potencial:**\n  $$W_{A \\to B} = q (V_A - V_B) = -q \\Delta V$$\n\n* **Obtención del campo $\\vec{E}$ a partir del potencial $V$:**\n  $$E_x = -\\frac{\\partial V}{\\partial x}, \\quad E_y = -\\frac{\\partial V}{\\partial y}, \\quad E_z = -\\frac{\\partial V}{\\partial z}$$\n\n---\n\n## 8. Capacitancia y Capacitores\n\n* **Definición general de capacitancia:**\n  $$C = \\frac{Q}{V}$$\n\n* **Capacitor de placas paralelas (vacío):**\n  $$C_0 = \\frac{\\varepsilon_0 A}{d}$$\n\n* **Campo dentro de placas paralelas:**\n  $$E = \\frac{\\sigma}{\\varepsilon_0} = \\frac{Q}{\\varepsilon_0 A} = \\frac{V}{d}$$\n\n* **Capacitor con dieléctrico ($k > 1$):**\n  $$C = k C_0 = \\frac{k \\varepsilon_0 A}{d}$$\n  $$V = \\frac{V_0}{k} \\quad (Q \\text{ constante})$$\n  $$E_{\\text{int}} = \\frac{E_0}{k} = E_0 - E_{\\text{ind}}$$\n\n---\n\n## 9. Combinación de Capacitores en Circuitos\n\n| Propiedad | Conexión en Serie | Conexión en Paralelo |\n| :--- | :---: | :---: |\n| **Carga ($Q$)** | $Q_{\\text{eq}} = Q_1 = Q_2 = \\dots$ | $Q_{\\text{eq}} = Q_1 + Q_2 + \\dots$ |\n| **Voltaje ($V$)** | $V_{\\text{eq}} = V_1 + V_2 + \\dots$ | $V_{\\text{eq}} = V_1 = V_2 = \\dots$ |\n| **Capacitancia Equivalente** | $$\\frac{1}{C_{\\text{eq}}} = \\sum_{i} \\frac{1}{C_i}$$ | $$C_{\\text{eq}} = \\sum_{i} C_i$$ |\n| **Dos capacitores (fórmula rápida)** | $$C_{\\text{eq}} = \\frac{C_1 C_2}{C_1 + C_2}$$ | $$C_{\\text{eq}} = C_1 + C_2$$ |\n\n---\n\n## 10. Energía Almacenada en Capacitores y Campos\n\n* **Energía almacenada en un capacitor ($U$):**\n  $$U = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} C V^2 = \\frac{1}{2} Q V$$\n\n* **Densidad de energía eléctrica ($u$ en $\\text{J/m}^3$):**\n  $$u = \\frac{1}{2} \\varepsilon_0 E^2 \\quad (\\text{en el vacío})$$\n  $$u = \\frac{1}{2} k \\varepsilon_0 E^2 \\quad (\\text{en un dieléctrico})$$\n\n---\n\n## 11. Dipolo Eléctrico\n\n* **Momento dipolar eléctrico ($\\vec{p}$):**\n  $$\\vec{p} = q \\Delta \\vec{r} \\quad (\\text{apunta de } -q \\text{ a } +q)$$\n  $$\\text{Magnitud: } p = q d$$\n\n* **Torque sobre un dipolo en campo externo uniforme $\\vec{E}_0$:**\n  $$\\vec{\\tau} = \\vec{p} \\times \\vec{E}_0 \\implies \\tau = p E_0 \\sin\\theta$$\n\n* **Fuerza neta en campo uniforme:**\n  $$\\vec{F}_{\\text{net}} = 0$$\n\n* **Energía potencial de un dipolo en campo $\\vec{E}_0$:**\n  $$U = -\\vec{p} \\cdot \\vec{E}_0 = -p E_0 \\cos\\theta$$"
+        }
+      ],
+      "timestamp": "2026-08-28T00:48:58.741Z"
+    },
+    {
+      "id": "67f36023-384e-429e-a26e-cb6425d053ca",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Guardalo en un .md llamado Formulario1.md",
+          "autoMentionContext": {
+            "noteName": "Potencial Eléctrico y Capacitancia",
+            "notePath": "F2/Potencial Eléctrico y Capacitancia.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:49:22.051Z"
+    },
+    {
+      "id": "cd291367-7dc9-4365-991e-8b329865914c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "JqCbHZAXQEcP78cA",
+          "title": "F2\\Formulario Unidades I y II.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Formulario Unidades I y II.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Formulario Unidades I y II.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-28T00:50:01.190Z"
+    },
+    {
+      "id": "7bb6cdd8-1a22-49bb-8d02-c80f73477be3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "lwMkSH7ph4TvM2jn",
+          "title": "F2\\Formulario1.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Formulario1.md"
+            }
+          ],
+          "rawInput": {
+            "content": "---\naliases:\n  - Formulario Unidades I y II\n---\n# Formulario Fundamental de Física II\n\n## Índice del Formulario\n\n- [[#Constantes Universales y Unidades]]\n- [[#1. Electrostática Carga y Ley de Coulomb]]\n- [[#2. Campo Eléctrico E]]\n- [[#3. Densidades de Carga y Distribuciones Continuas]]\n- [[#4. Movimiento de Partículas Cargadas]]\n- [[#5. Flujo Eléctrico y Ley de Gauss]]\n- [[#6. Trabajo y Energía Potencial Eléctrica]]\n- [[#7. Potencial Eléctrico V]]\n- [[#8. Capacitancia y Capacitores]]\n- [[#9. Combinación de Capacitores en Circuitos]]\n- [[#10. Energía Almacenada en Capacitores y Campos]]\n- [[#11. Dipolo Eléctrico]]\n\n---\n\n## Constantes Universales y Unidades\n\n| Magnitud / Constante | Símbolo | Valor / Equivalencia S.I. |\n| :--- | :---: | :--- |\n| **Carga elemental** | $e$ | $1.6 \\times 10^{-19} \\text{ C}$ |\n| **Constante de Coulomb** | $K$ | $K = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9 \\times 10^9 \\text{ N}\\cdot\\text{m}^2/\\text{C}^2$ |\n| **Permeabilidad del vacío** | $\\varepsilon_0$ | $8.85 \\times 10^{-12} \\text{ C}^2/(\\text{N}\\cdot\\text{m}^2)$ |\n| **Masa del electrón** | $m_e$ | $9.11 \\times 10^{-31} \\text{ kg}$ |\n| **Masa del protón** | $m_p$ | $1.67 \\times 10^{-27} \\text{ kg}$ |\n| **Voltio** | $\\text{V}$ | $1 \\text{ V} = 1 \\text{ J/C}$ |\n| **Faradio** | $\\text{F}$ | $1 \\text{ F} = 1 \\text{ C/V}$ |\n\n---\n\n## 1. Electrostática: Carga y Ley de Coulomb\n\n* **Cuantización de la carga:**\n  $$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$\n\n* **Contacto entre conductores idénticos:**\n  $$q_1' = q_2' = \\frac{q_1 + q_2}{2}$$\n\n* **Ley de Coulomb (Fuerza puntual):**\n  $$\\vec{F} = K \\frac{q_1 q_2}{r^2} \\hat{e}_r$$\n\n* **Superposición de fuerzas:**\n  $$\\vec{F}_{\\text{net}} = \\sum_{i} \\vec{F}_i$$\n\n---\n\n## 2. Campo Eléctrico ($\\vec{E}$)\n\n* **Definición de campo eléctrico:**\n  $$\\vec{E} = \\frac{\\vec{F}}{q_0}$$\n\n* **Campo de una carga puntual:**\n  $$\\vec{E} = K \\frac{q}{r^2} \\hat{e}_r$$\n\n* **Superposición de campos:**\n  $$\\vec{E}_{\\text{net}} = \\sum_{i} \\vec{E}_i$$\n\n---\n\n## 3. Densidades de Carga y Distribuciones Continuas\n\n### Densidades de Carga\n\n| Tipo de Distribución | Uniforme | No Uniforme | Unidades |\n| :--- | :---: | :---: | :---: |\n| **Lineal ($\\lambda$)** | $\\lambda = \\frac{Q}{l}$ | $\\lambda = \\frac{dq}{dl}$ | $\\text{C/m}$ |\n| **Superficial ($\\sigma$)** | $\\sigma = \\frac{Q}{A}$ | $\\sigma = \\frac{dq}{dA}$ | $\\text{C/m}^2$ |\n| **Volumétrica ($\\rho$)** | $\\rho = \\frac{Q}{V}$ | $\\rho = \\frac{dq}{dV}$ | $\\text{C/m}^3$ |\n\n* **Campo continuo general:**\n  $$\\vec{E} = K \\int \\frac{dq}{r^2} \\hat{r}$$\n\n### Resultados Clásicos de Campo Eléctrico ($\\vec{E}$)\n\n* **Línea de carga finita (longitud $l$, a una distancia $a$ de un extremo):**\n  $$E = K \\frac{Q}{a(l + a)}$$\n\n* **Anillo de carga (radio $a$, en el eje a una distancia $x$ del centro):**\n  $$E_x = K \\frac{x Q}{(x^2 + a^2)^{3/2}}$$\n\n* **Disco cargado uniformemente (radio $R$, en el eje a una distancia $x$):**\n  $$E = 2\\pi K \\sigma \\left( 1 - \\frac{x}{\\sqrt{R^2 + x^2}} \\right)$$\n\n---\n\n## 4. Movimiento de Partículas Cargadas\n\n* **Aceleración en campo uniforme:**\n  $$\\vec{a} = \\frac{q\\vec{E}}{m}$$\n\n* **Ecuaciones cinemáticas ($\\vec{E}$ uniforme en $\\hat{y}$):**\n  $$v_x = v_{0x} = \\text{cte}$$\n  $$v_y = v_{0y} + a_y t$$\n  $$y = y_0 + v_{0y} t + \\frac{1}{2} a_y t^2$$\n\n---\n\n## 5. Flujo Eléctrico y Ley de Gauss\n\n* **Flujo eléctrico uniforme en superficie plana:**\n  $$\\Phi_E = \\vec{E} \\cdot \\vec{A} = E A \\cos\\theta$$\n\n* **Flujo eléctrico en superficie general:**\n  $$\\Phi_E = \\int \\vec{E} \\cdot d\\vec{A}$$\n\n* **Ley de Gauss (Superficie cerrada):**\n  $$\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{\\text{enc}}}{\\varepsilon_0}$$\n\n### Resultados Directos por Ley de Gauss\n\n* **Esfera aislante sólida (radio $a$, carga $Q$):**\n  * Exterior ($r \\ge a$): $$E = K \\frac{Q}{r^2}$$\n  * Interior ($r < a$): $$E = K \\frac{Q}{a^3} r$$\n\n* **Línea infinita de carga (densidad $\\lambda$):**\n  $$E = \\frac{\\lambda}{2\\pi \\varepsilon_0 r} = \\frac{2K\\lambda}{r}$$\n\n* **Plano infinito de carga (densidad $\\sigma$):**\n  $$E = \\frac{\\sigma}{2\\varepsilon_0}$$\n\n* **Superficie exterior de un conductor en equilibrio:**\n  $$E = \\frac{\\sigma}{\\varepsilon_0}$$\n\n---\n\n## 6. Trabajo y Energía Potencial Eléctrica\n\n> ⚠️ **Recordatorio crucial:** En todas las fórmulas de esta sección, las cargas $q$ y $Q$ **entran con sus respectivos signos ($+$ o $-$)**.\n\n* **Trabajo de la fuerza eléctrica entre dos puntos:**\n  $$W_{1 \\to 2} = \\int_{r_1}^{r_2} \\vec{F} \\cdot d\\vec{r} = K q Q \\left( \\frac{1}{r_1} - \\frac{1}{r_2} \\right)$$\n\n* **Energía potencial entre dos cargas puntuales:**\n  $$U = K \\frac{q Q}{r}$$\n\n* **Energía potencial de un sistema discreto:**\n  $$U_{\\text{total}} = \\sum_{i < j} K \\frac{q_i q_j}{r_{ij}}$$\n\n* **Relación trabajo y energía potencial:**\n  $$W_{1 \\to 2} = U_1 - U_2 = -\\Delta U$$\n\n---\n\n## 7. Potencial Eléctrico ($V$)\n\n* **Definición general:**\n  $$V = \\frac{U}{q_0}$$\n\n* **Potencial de una carga puntual:**\n  $$V = K \\frac{Q}{r}$$\n\n* **Potencial de múltiples cargas puntuales:**\n  $$V = \\sum_{i} K \\frac{Q_i}{r_i}$$\n\n* **Potencial de una distribución continua:**\n  $$V = K \\int \\frac{dq}{r}$$\n\n* **Diferencia de potencial a partir del campo $\\vec{E}$:**\n  $$\\Delta V = V_B - V_A = -\\int_{A}^{B} \\vec{E} \\cdot d\\vec{s}$$\n\n* **Trabajo del campo en función de la diferencia de potencial:**\n  $$W_{A \\to B} = q (V_A - V_B) = -q \\Delta V$$\n\n* **Obtención del campo $\\vec{E}$ a partir del potencial $V$:**\n  $$E_x = -\\frac{\\partial V}{\\partial x}, \\quad E_y = -\\frac{\\partial V}{\\partial y}, \\quad E_z = -\\frac{\\partial V}{\\partial z}$$\n\n---\n\n## 8. Capacitancia y Capacitores\n\n* **Definición general de capacitancia:**\n  $$C = \\frac{Q}{V}$$\n\n* **Capacitor de placas paralelas (vacío):**\n  $$C_0 = \\frac{\\varepsilon_0 A}{d}$$\n\n* **Campo dentro de placas paralelas:**\n  $$E = \\frac{\\sigma}{\\varepsilon_0} = \\frac{Q}{\\varepsilon_0 A} = \\frac{V}{d}$$\n\n* **Capacitor con dieléctrico ($k > 1$):**\n  $$C = k C_0 = \\frac{k \\varepsilon_0 A}{d}$$\n  $$V = \\frac{V_0}{k} \\quad (Q \\text{ constante})$$\n  $$E_{\\text{int}} = \\frac{E_0}{k} = E_0 - E_{\\text{ind}}$$\n\n---\n\n## 9. Combinación de Capacitores en Circuitos\n\n| Propiedad | Conexión en Serie | Conexión en Paralelo |\n| :--- | :---: | :---: |\n| **Carga ($Q$)** | $Q_{\\text{eq}} = Q_1 = Q_2 = \\dots$ | $Q_{\\text{eq}} = Q_1 + Q_2 + \\dots$ |\n| **Voltaje ($V$)** | $V_{\\text{eq}} = V_1 + V_2 + \\dots$ | $V_{\\text{eq}} = V_1 = V_2 = \\dots$ |\n| **Capacitancia Equivalente** | $$\\frac{1}{C_{\\text{eq}}} = \\sum_{i} \\frac{1}{C_i}$$ | $$C_{\\text{eq}} = \\sum_{i} C_i$$ |\n| **Dos capacitores (fórmula rápida)** | $$C_{\\text{eq}} = \\frac{C_1 C_2}{C_1 + C_2}$$ | $$C_{\\text{eq}} = C_1 + C_2$$ |\n\n---\n\n## 10. Energía Almacenada en Capacitores y Campos\n\n* **Energía almacenada en un capacitor ($U$):**\n  $$U = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} C V^2 = \\frac{1}{2} Q V$$\n\n* **Densidad de energía eléctrica ($u$ en $\\text{J/m}^3$):**\n  $$u = \\frac{1}{2} \\varepsilon_0 E^2 \\quad (\\text{en el vacío})$$\n  $$u = \\frac{1}{2} k \\varepsilon_0 E^2 \\quad (\\text{en un dieléctrico})$$\n\n---\n\n## 11. Dipolo Eléctrico\n\n* **Momento dipolar eléctrico ($\\vec{p}$):**\n  $$\\vec{p} = q \\Delta \\vec{r} \\quad (\\text{apunta de } -q \\text{ a } +q)$$\n  $$\\text{Magnitud: } p = q d$$\n\n* **Torque sobre un dipolo en campo externo uniforme $\\vec{E}_0$:**\n  $$\\vec{\\tau} = \\vec{p} \\times \\vec{E}_0 \\implies \\tau = p E_0 \\sin\\theta$$\n\n* **Fuerza neta en campo uniforme:**\n  $$\\vec{F}_{\\text{net}} = 0$$\n\n* **Energía potencial de un dipolo en campo $\\vec{E}_0$:**\n  $$U = -\\vec{p} \\cdot \\vec{E}_0 = -p E_0 \\cos\\theta$$\n",
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\F2\\Formulario1.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "He guardado el formulario completo con todas las fórmulas de la Unidad I y Unidad II en el archivo:\n\n`C:/Users/joaqu/Documents/5to-semestre/F2/Formulario1.md`"
+        }
+      ],
+      "timestamp": "2026-08-28T00:50:01.190Z"
     }
   ],
-  "savedAt": "2026-08-26T13:28:04.663Z"
+  "savedAt": "2026-08-28T00:50:02.024Z"
 }

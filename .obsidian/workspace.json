@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F2/Unidad I.md",
+                "file": "F2/Formulario Unidades I y II.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unidad I"
+              "title": "Formulario Unidades I y II"
             }
           },
           {
@@ -32,21 +32,8 @@
               "icon": "lucide-file-text",
               "title": "Sears_Zemansky_Fisica_Universitaria_Vol_2"
             }
-          },
-          {
-            "id": "1990a2fe39fdde66",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "F2/Material de Lectura2 .pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Material de Lectura2"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "febe18bd59b062ed",
@@ -196,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F2/Material de Lectura2 .pdf",
+                "file": "F2/Formulario Unidades I y II.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -234,7 +220,7 @@
                 "initialAgentId": "opencode"
               },
               "icon": "bot-message-square",
-              "title": "New session"
+              "title": "Necesito que hagas un .md de la primera unidad ..."
             }
           }
         ],
@@ -259,20 +245,24 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "F2/Material de Lectura2 .pdf",
+    "F2/Unidad II.md",
     "F2/Unidad I.md",
+    "F2/Formulario Unidades I y II.md",
+    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
+    "F2/Campo Eléctrico ($/vec{E}$).md",
+    "F2/Campo Eléctrico ($",
+    "F2/Formulario1.md",
+    "F2/Material de Lectura2 .pdf",
     "LP3/Advanced_Linux_Programming.pdf",
     "LP3/Threads.md",
     "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
     "LP3/Processes.md",
     "F2/Serway_Fisica_Vol_2.pdf",
     "F2/Material de lectura unidad 1.pdf",
-    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
     "Tags",
     "F2/Material de lectura Unidad III.pdf",
     "LP3/Writing Local Programs.md",
     "LP3/Chp3_Procesos.pdf",
-    "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "Recursos/20251018113518.png",
     "Recursos/20251018113612.png",
     "Recursos/20251018112326.png",

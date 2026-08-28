@@ -115,7 +115,7 @@
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
       "title": "Necesito que hagas un .md de la primera unidad ...",
       "createdAt": "2026-08-26T13:22:56.485Z",
-      "updatedAt": "2026-08-26T13:28:04.663Z"
+      "updatedAt": "2026-08-28T00:50:02.022Z"
     },
     {
       "sessionId": "ses_fe2ef114cffevpsnntbcuX66MJ",
@@ -127,7 +127,7 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "google/gemini-3.5-flash"
+    "opencode": "google/gemini-3.6-flash"
   },
   "lastUsedModes": {},
   "lastUsedConfigOptions": {
