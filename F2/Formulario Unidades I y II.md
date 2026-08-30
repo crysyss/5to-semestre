@@ -128,7 +128,7 @@
 
 ## 6. Trabajo y Energía Potencial Eléctrica
 
-> ⚠️ **Recordatorio crucial:** En todas las fórmulas de esta sección, las cargas $q$ y $Q$ **entran con sus respectivos signos ($+$ o $-$)**.
+>  **Recordatorio crucial:** En todas las fórmulas de esta sección, las cargas $q$ y $Q$ **entran con sus respectivos signos ($+$ o $-$)**.
 
 * **Trabajo de la fuerza eléctrica entre dos puntos:**
   $$W_{1 \to 2} = \int_{r_1}^{r_2} \vec{F} \cdot d\vec{r} = K q Q \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
