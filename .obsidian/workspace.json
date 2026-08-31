@@ -18,21 +18,8 @@
               "icon": "lucide-file-text",
               "title": "Material de Lectura2"
             }
-          },
-          {
-            "id": "90ed49163217d90c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Sears_Zemansky_Fisica_Universitaria_Vol_2"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,10 +229,10 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "71ae7f04bd5c3f11",
+  "active": "cb6f94626b500c93",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
+    "conflict-files-obsidian-git.md",
     "F2/Material de Lectura2 .pdf",
     "F2/Material de lectura Unidad III.pdf",
     "F2/Material de lectura unidad 1.pdf",
