@@ -11,14 +11,12 @@
             "id": "cb6f94626b500c93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "F2/Formulario Unidades I y II.md",
-                "mode": "preview",
-                "source": false
+                "file": "F2/Material de Lectura2 .pdf"
               },
-              "icon": "lucide-file",
-              "title": "Formulario Unidades I y II"
+              "icon": "lucide-file-text",
+              "title": "Material de Lectura2"
             }
           },
           {
@@ -33,7 +31,8 @@
               "title": "Sears_Zemansky_Fisica_Universitaria_Vol_2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
             }
           },
           {
-            "id": "61e9802ab8bdf7c8",
+            "id": "5f5a7acd1518f67b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -243,24 +242,24 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "61e9802ab8bdf7c8",
+  "active": "90ed49163217d90c",
   "lastOpenFiles": [
+    "F2/Material de Lectura2 .pdf",
+    "F2/Material de lectura Unidad III.pdf",
+    "F2/Material de lectura unidad 1.pdf",
     "F2/Unidad II.md",
-    "F2/Unidad I.md",
     "F2/Formulario Unidades I y II.md",
+    "F2/Unidad I.md",
     "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
     "F2/Campo Eléctrico ($/vec{E}$).md",
     "F2/Campo Eléctrico ($",
     "F2/Formulario1.md",
-    "F2/Material de Lectura2 .pdf",
     "LP3/Advanced_Linux_Programming.pdf",
     "LP3/Threads.md",
     "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
     "LP3/Processes.md",
     "F2/Serway_Fisica_Vol_2.pdf",
-    "F2/Material de lectura unidad 1.pdf",
     "Tags",
-    "F2/Material de lectura Unidad III.pdf",
     "LP3/Writing Local Programs.md",
     "LP3/Chp3_Procesos.pdf",
     "Recursos/20251018113518.png",
