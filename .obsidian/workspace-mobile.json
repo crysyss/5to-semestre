@@ -87,6 +87,16 @@
           "icon": "lucide-bookmark",
           "title": "Marcadores"
         }
+      },
+      {
+        "id": "48c40ff1d3ff2819",
+        "type": "leaf",
+        "state": {
+          "type": "mk-path-view",
+          "state": {},
+          "icon": "layout-grid",
+          "title": "Navigator"
+        }
       }
     ],
     "currentTab": 0
@@ -149,6 +159,16 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "d48af6d5edca96ed",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 3
@@ -165,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e1f7be153aa1059",
+  "active": "623a45bda2ffe100",
   "lastOpenFiles": [
+    "Tags",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "/SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "SistemasDistribuidos",
