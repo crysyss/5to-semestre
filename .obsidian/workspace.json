@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "68a6f84b8ea0cd97",
+        "id": "08744dcdef1ca8e0",
         "type": "tabs",
         "children": [
           {
-            "id": "cb6f94626b500c93",
+            "id": "1c6569fdb02543b6",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Marketing"
+              },
+              "icon": "lucide-file",
+              "title": "Marketing"
+            }
+          },
+          {
+            "id": "987e7b32ef21adb3",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "F2/Material de Lectura2 .pdf"
+                "file": "Marketing/Capítulo 5. Temario Primera Parte 2026.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Material de Lectura2"
+              "title": "Capítulo 5. Temario Primera Parte 2026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +219,7 @@
                 "initialAgentId": "opencode"
               },
               "icon": "bot-message-square",
-              "title": "Necesito que hagas un .md de la primera unidad ..."
+              "title": "New session"
             }
           }
         ],
@@ -229,34 +242,37 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "cb6f94626b500c93",
+  "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
-    "conflict-files-obsidian-git.md",
-    "F2/Material de Lectura2 .pdf",
-    "F2/Material de lectura Unidad III.pdf",
-    "F2/Material de lectura unidad 1.pdf",
+    "Marketing/Capítulo 2. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
+    "Marketing/Marketing.md",
+    "Marketing/Capítulo 5. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 7. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 8. Temario Primera Parte 2026.pdf",
+    "Marketing",
+    "Vault.md",
+    "Untitled.md",
+    "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
+    "SistemasDistribuidos/CAPITULO_04.pdf",
+    "SistemasDistribuidos/CAPITULO_03.pdf",
+    "SistemasDistribuidos/CAPITULO_02.pdf",
     "F2/Unidad II.md",
+    "conflict-files-obsidian-git.md",
     "F2/Formulario Unidades I y II.md",
     "F2/Unidad I.md",
     "F2/Campo Eléctrico ($/vec{E}$).md",
-    "F2/Campo Eléctrico ($",
     "F2/Formulario1.md",
-    "LP3/Advanced_Linux_Programming.pdf",
     "LP3/Threads.md",
-    "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
     "LP3/Processes.md",
-    "F2/Serway_Fisica_Vol_2.pdf",
-    "Tags",
     "LP3/Writing Local Programs.md",
-    "LP3/Chp3_Procesos.pdf",
     "Recursos/20251018113518.png",
     "Recursos/20251018113612.png",
     "Recursos/20251018112326.png",
     "TOM/Clase 2.md",
     "TOM/Tareas.md",
     "LP3/Getting Started.md",
-    "Java.md",
+    "SistemasDistribuidos/Java.md",
     "2026-W34.md",
     "Sin título.md",
     "Sin título.canvas",

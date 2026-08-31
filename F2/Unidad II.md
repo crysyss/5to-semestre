@@ -46,7 +46,7 @@ $$dW = \vec{F} \cdot d\vec{r}$$
 Para mover una carga puntual $q$ entre los puntos $r_1$ y $r_2$ en el campo radial de una carga fija $Q$:
 $$W_{1 \to 2} = \int_{r_1}^{r_2} K \frac{qQ}{r^2} dr = K q Q \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
 
-> 💡 **Signo del Trabajo:**
+>  **Signo del Trabajo:**
 > * **Trabajo motor ($W > 0$):** El desplazamiento es espontáneo, en el sentido de la fuerza eléctrica.
 > * **Trabajo resistente ($W < 0$):** El desplazamiento es contra la fuerza eléctrica, requiere un agente externo.
 
@@ -83,7 +83,7 @@ La diferencia de potencial entre dos puntos $A$ y $B$ ($\Delta V = V_B - V_A$) r
 El trabajo realizado por el campo eléctrico para desplazar una carga $q$ desde $A$ hasta $B$ es:
 $$W_{A \to B} = q (V_A - V_B) = -q \Delta V$$
 
-> 🧭 **Reglas para el movimiento espontáneo de cargas:**
+>  **Reglas para el movimiento espontáneo de cargas:**
 > * **Cargas positivas ($+$):** Se desplazan espontáneamente de puntos de **mayor potencial a menor potencial** ($V_A > V_B$).
 > * **Cargas negativas ($-$):** Se desplazan espontáneamente de puntos de **menor potencial a mayor potencial** ($V_A < V_B$).
 > * **Recorrer una línea de campo:** En el sentido de las líneas de campo eléctrico, el potencial eléctrico **siempre disminuye**.
@@ -128,7 +128,7 @@ $$C = \frac{Q}{V}$$
 
 Unidad en el S.I.: **Faradio (F)** $\rightarrow 1 \text{ F} = 1 \text{ C/V}$.
 
-> 💡 **Principio clave:** La capacitancia $C$ es **constante** para un conductor o capacitor dado; **NO depende** de la carga $Q$ ni del voltaje $V$. Depende únicamente de la geometría (forma, tamaño, separación) y de la naturaleza del medio (dieléctrico).
+> **Principio clave:** La capacitancia $C$ es **constante** para un conductor o capacitor dado; **NO depende** de la carga $Q$ ni del voltaje $V$. Depende únicamente de la geometría (forma, tamaño, separación) y de la naturaleza del medio (dieléctrico).
 
 ### Capacitor de Placas Paralelas
 Dos placas conductoras de área $A$ separadas por una distancia $d$:
@@ -154,8 +154,6 @@ Al introducir un material no conductor (dieléctrico) con constante dieléctrica
 ---
 
 ## Circuitos con Capacitores
-
-Deberás dejar una línea en blanco antes de cada tabla para asegurar su renderizado en Obsidian.
 
 | Parámetro | Conexión en Serie | Conexión en Paralelo |
 | :--- | :--- | :--- |
