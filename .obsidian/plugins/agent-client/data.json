@@ -110,12 +110,20 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_fa66a62d6ffe2d11J6VTOlRon9",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Haz un resumen del capitulo de hilos, usa  @[[P...",
+      "createdAt": "2026-08-31T22:22:39.339Z",
+      "updatedAt": "2026-08-31T22:22:39.344Z"
+    },
+    {
       "sessionId": "ses_fc1c7c632ffea8GFD1P8N5bMLx",
       "agentId": "opencode",
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
       "title": "Necesito que hagas un .md de la primera unidad ...",
       "createdAt": "2026-08-26T13:22:56.485Z",
-      "updatedAt": "2026-08-28T00:50:02.022Z"
+      "updatedAt": "2026-08-31T22:27:24.348Z"
     },
     {
       "sessionId": "ses_fe2ef114cffevpsnntbcuX66MJ",
@@ -123,7 +131,7 @@
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
       "title": "Haz un .md del capitulo 2 del libro advanced_pr...",
       "createdAt": "2026-08-20T02:48:56.793Z",
-      "updatedAt": "2026-08-20T02:57:04.707Z"
+      "updatedAt": "2026-08-31T22:28:27.813Z"
     }
   ],
   "lastUsedModels": {

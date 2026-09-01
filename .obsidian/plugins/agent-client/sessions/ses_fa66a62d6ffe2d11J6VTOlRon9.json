@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "sessionId": "ses_fa66a62d6ffe2d11J6VTOlRon9",
+  "agentId": "opencode",
+  "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+  "title": "Haz un resumen del capitulo de hilos, usa  @[[P...",
+  "createdAt": "2026-08-31T22:22:39.339Z",
+  "updatedAt": "2026-08-31T22:22:39.339Z",
+  "messages": [
+    {
+      "id": "2085890a-aeda-4afb-a595-4af72d85a79d",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Haz un resumen del capitulo de hilos, usa  @[[Processes]] para ver el formato deseado",
+          "autoMentionContext": {
+            "noteName": "Threads",
+            "notePath": "LP3/Threads.md"
+          }
+        }
+      ],
+      "timestamp": "2026-08-31T22:18:39.485Z"
+    },
+    {
+      "id": "a162e315-28cc-4427-bfab-8912bfef7466",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "DzSrPYwJ0frc5QJv",
+          "title": "LP3\\Threads.md",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Threads.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "C:\\Users\\joaqu\\Documents\\5to-semestre\\LP3\\Threads.md"
+          }
+        },
+        {
+          "type": "text",
+          "text": "## Índice General\n\n- [[#Objetivo del Capítulo]]\n- [[#4.1 Thread Creation]]\n- [[#4.2 Thread Arguments]]\n- [[#4.3 Thread Cancellation and Detaching]]\n    - [[#Thread Cancellation]]\n    - [[#Thread Detaching and Joining]]\n- [[#4.4 Thread-Specific Data]]\n- [[#4.5 Thread Synchronization and Critical Sections]]\n    - [[#Mutexes]]\n    - [[#Semaphore Basics]]\n    - [[#Condition Variables]]\n- [[#4.6 GNU/Linux Thread Implementation]]\n\n---\n\n# Objetivo del Capítulo\n\nEste capítulo introduce el concepto de hilos de ejecución (*threads*) en Linux mediante la especificación estándar **Pthreads** (`<pthread.h>`). Aprenderás cómo crear y gestionar hilos, cómo pasarles argumentos de forma segura, el control de su ciclo de vida mediante funciones como `join`, `detach` y `cancel`, el uso de datos específicos por hilo (TSD), y las distintas herramientas de sincronización para proteger secciones críticas (mutexes, semáforos y variables de condición). Además, se explica brevemente la evolución de la implementación de hilos en el kernel de Linux.\n\n---\n\n# 4.1 Thread Creation\n\nUn **hilo** es una unidad de ejecución dentro de un proceso. A diferencia de los procesos independientes creados con `fork`, todos los hilos de un mismo proceso comparten el mismo espacio de direcciones (memoria global, datos estáticos, descriptores de archivos, etc.), aunque cada uno conserva su propio registro de instrucciones y pila (*stack*) para variables locales.\n\nPara usar hilos en Linux se incluye `<pthread.h>` y se compila utilizando la bandera `-pthread`. La creación de un hilo se realiza con la función `pthread_create`:\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\nvoid* print_xs (void* unused) {\n    while (1) {\n        fputc ('x', stderr);\n    }\n    return NULL;\n}\n\nint main () {\n    pthread_t thread_id;\n    \n    // Crear el nuevo hilo para ejecutar la función print_xs\n    pthread_create (&thread_id, NULL, &print_xs, NULL);\n    \n    while (1) {\n        fputc ('o', stderr);\n    }\n    \n    return 0;\n}\n```\n\n---\n\n# 4.2 Thread Arguments\n\nLa función ejecutada por un hilo toma un argumento genérico de tipo `void*` y devuelve un valor de tipo `void*`. Esto permite enviar estructuras de datos complejas mediante un moldeado (*cast*).\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\nstruct thread_args {\n    char character;\n    int count;\n};\n\nvoid* char_print (void* parameters) {\n    struct thread_args* p = (struct thread_args*) parameters;\n    for (int i = 0; i < p->count; ++i) {\n        fputc (p->character, stderr);\n    }\n    return NULL;\n}\n\nint main () {\n    pthread_t thread1_id, thread2_id;\n    struct thread_args args1 = {'x', 30000};\n    struct thread_args args2 = {'o', 20000};\n\n    pthread_create (&thread1_id, NULL, &char_print, &args1);\n    pthread_create (&thread2_id, NULL, &char_print, &args2);\n\n    pthread_join (thread1_id, NULL);\n    pthread_join (thread2_id, NULL);\n\n    return 0;\n}\n```\n\n> [!warning] Ámbito de variables\n> Al pasar punteros a variables locales (del stack) como argumento a un hilo, debe asegurarse de que dichas variables no salgan de ámbito antes de que el hilo termine de procesarlas.\n\n---\n\n# 4.3 Thread Cancellation and Detaching\n\n---\n\n### Thread Cancellation\n\nUn hilo puede solicitar la cancelación de otro llamando a `pthread_cancel(thread_id)`. La respuesta del hilo receptor depende del estado de cancelación configurado:\n\n1. **Asynchronous:** El hilo se cancela de forma inmediata en cualquier instrucción.\n2. **Deferred (Por defecto):** La cancelación se posterga hasta alcanzar un \"punto de cancelación\" (*cancellation point*), como operaciones de E/S o bloqueos.\n3. **Disabled:** Ignora las peticiones de cancelación.\n\n---\n\n### Thread Detaching and Joining\n\nAl finalizar un hilo, sus recursos no se liberan por completo para posibilitar la lectura de su valor de retorno.\n\n- **Joining (`pthread_join`):** Bloquea al hilo llamador hasta que el hilo especificado termine y recupere sus recursos.\n- **Detaching (`pthread_detach`):** Desasocia el hilo para que el sistema recupere sus recursos de forma autónoma e inmediata al finalizar, perdiendo la capacidad de hacer `join` sobre él.\n\n```c\n// Desasociar el hilo actual a sí mismo\npthread_detach (pthread_self ());\n```\n\n---\n\n# 4.4 Thread-Specific Data\n\nDado que las variables globales y estáticas son compartidas por todos los hilos, se utiliza el mecanismo de **Thread-Specific Data (TSD)** mediante llaves `pthread_key_t` cuando se requiere una variable con ámbito \"global\" que mantenga un valor independiente y único para cada hilo.\n\n```c\n#include <pthread.h>\n#include <stdio.h>\n\npthread_key_t log_key;\n\nvoid write_to_log (const char* message) {\n    FILE* log_file = (FILE*) pthread_getspecific (log_key);\n    fprintf (log_file, \"%s\\n\", message);\n}\n\nvoid close_log_file (void* thread_log) {\n    fclose ((FILE*) thread_log);\n}\n\nvoid* thread_function (void* arg) {\n    char filename[20];\n    sprintf (filename, \"thread_%u.log\", (unsigned int)pthread_self());\n    FILE* log_file = fopen (filename, \"w\");\n    \n    pthread_setspecific (log_key, log_file);\n    write_to_log (\"Hilo inicializado.\");\n    return NULL;\n}\n\nint main () {\n    // Al destruirse el hilo se llama automáticamente a close_log_file\n    pthread_key_create (&log_key, close_log_file);\n    /* ... crear hilos ... */\n    return 0;\n}\n```\n\n---\n\n# 4.5 Thread Synchronization and Critical Sections\n\nEl acceso simultáneo no coordinado a variables o recursos compartidos provoca **condiciones de carrera (race conditions)**. Para prevenirlo, las secciones de código que acceden a recursos compartidos (**secciones críticas**) se protegen mediante mecanismos de sincronización.\n\n---\n\n### Mutexes\n\nUn **mutex** (*mutual exclusion*) garantiza que únicamente un hilo ejecute la sección crítica a la vez.\n\n- `pthread_mutex_init` / `PTHREAD_MUTEX_INITIALIZER`: Inicialización.\n- `pthread_mutex_lock`: Adquiere el cerrojo (bloquea si está ocupado).\n- `pthread_mutex_unlock`: Libera el cerrojo.\n\n```c\n#include <pthread.h>\n\nfloat account_balance = 1000.0;\npthread_mutex_t balance_mutex = PTHREAD_MUTEX_INITIALIZER;\n\nvoid* withdraw (void* arg) {\n    float amount = *(float*)arg;\n\n    pthread_mutex_lock (&balance_mutex);\n    // Sección Crítica\n    if (account_balance >= amount) {\n        account_balance -= amount;\n    }\n    pthread_mutex_unlock (&balance_mutex);\n\n    return NULL;\n}\n```\n\n---\n\n### Semaphore Basics\n\nUn **semáforo** (`<semaphore.h>`) es un contador que regula el acceso a una cantidad limitada de recursos compartidos idénticos:\n\n- `sem_wait`: Decrementa el contador; si su valor es cero, se bloquea.\n- `sem_post`: Incremente el contador y despierta hilos bloqueados.\n\n---\n\n### Condition Variables\n\nLas **variables de condición** (`pthread_cond_t`) permiten a un hilo suspender su ejecución eficientemente a la espera de que se cumpla una condición arbitraria, evitando la espera activa (*polling*). Siempre operan junto a un mutex.\n\n| Operación | Función | Descripción |\n|:--|:--|:--|\n| Esperar | `pthread_cond_wait(&cond, &mutex)` | Libera el mutex y suspende el hilo hasta ser notificado. |\n| Notificar uno | `pthread_cond_signal(&cond)` | Despierta a un hilo suspendido en la variable de condición. |\n| Notificar todos | `pthread_cond_broadcast(&cond)` | Despierta a todos los hilos suspendidos en la condición. |\n\n```c\n#include <pthread.h>\n\nint task_ready = 0;\npthread_mutex_t task_mutex = PTHREAD_MUTEX_INITIALIZER;\npthread_cond_t task_cond = PTHREAD_COND_INITIALIZER;\n\nvoid* consumer (void* arg) {\n    pthread_mutex_lock (&task_mutex);\n    while (!task_ready) {\n        pthread_cond_wait (&task_cond, &task_mutex);\n    }\n    // Procesar la tarea...\n    pthread_mutex_unlock (&task_mutex);\n    return NULL;\n}\n\nvoid set_task_ready () {\n    pthread_mutex_lock (&task_mutex);\n    task_ready = 1;\n    pthread_cond_signal (&task_cond);\n    pthread_mutex_unlock (&task_mutex);\n}\n```\n\n---\n\n# 4.6 GNU/Linux Thread Implementation\n\nOriginalmente, Linux utilizaba **LinuxThreads**, donde cada hilo se mapeaba a un proceso independiente en el kernel, generando inconsistencias respecto al estándar POSIX (p. ej., PIDs distintos y manejo inadecuado de señales).\n\nActualmente, los sistemas GNU/Linux emplean **NPTL (Native POSIX Thread Library)**, integrada nativamente en el kernel. Con NPTL todos los hilos de un proceso comparten el mismo PID, ofreciendo total cumplimiento de POSIX, soporte para miles de hilos y sincronización de alto rendimiento mediante *futexes* (*fast userspace mutexes*)."
+        }
+      ],
+      "timestamp": "2026-08-31T22:19:14.367Z"
+    }
+  ],
+  "savedAt": "2026-08-31T22:22:39.366Z"
+}
