@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "58613e8aaafd93d6",
+        "id": "af4d02ebc1a112b1",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1f7be153aa1059",
+            "id": "9c4da4539639dd20",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "LP3/Advanced_Linux_Programming.pdf"
+                "file": "LP3/4 - Threads.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Advanced_Linux_Programming"
+              "icon": "lucide-file",
+              "title": "4 - Threads"
             }
           }
         ]
@@ -89,7 +91,7 @@
         }
       },
       {
-        "id": "48c40ff1d3ff2819",
+        "id": "ca9bba9ddf40fe0d",
         "type": "leaf",
         "state": {
           "type": "mk-path-view",
@@ -185,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "623a45bda2ffe100",
+  "active": "9c4da4539639dd20",
   "lastOpenFiles": [
+    "LP3/Advanced_Linux_Programming.pdf",
     "Tags",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "/SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
@@ -212,7 +215,6 @@
     "/Java.md",
     "TOM",
     "Recursos",
-    "/TOM",
-    "/Recursos"
+    "/TOM"
   ]
 }

@@ -208,7 +208,7 @@ Un **mutex** (abreviatura de *mutual exclusion*) es un cerrojo lógico que permi
 
 - `pthread_mutex_init`: Inicializa un mutex.
 - `pthread_mutex_lock`: Intenta bloquear el mutex. Si ya está bloqueado por otro hilo, el hilo actual se suspende hasta que quede libre.
-- `pthread_mutex_unlock`: Desbloquea el mutex, permitiendo que otros hilos continúen.
+- `pthread_mutex_unlock`: Desbloquea el mutex, permitiendo que otros hilos continúen. 
 
 ```c
 #include <pthread.h>
