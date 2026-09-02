@@ -18,8 +18,23 @@
               "icon": "lucide-file-text",
               "title": "Capítulo 1. Temario Primera Parte 2026"
             }
+          },
+          {
+            "id": "b604e33e1944e7d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,8 +244,10 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "8f2c0c4f08f55995",
+  "active": "b604e33e1944e7d5",
   "lastOpenFiles": [
+    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
+    "conflict-files-obsidian-git.md",
     "Marketing/2026-08-31.md",
     "SistemasDistribuidos/CAPITULO_04.pdf",
     "LP3/5 - Interprocess Communication.md",
@@ -246,12 +263,10 @@
     "LP3/mso3E3D.tmp",
     "LP3/msoF5BE.tmp",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
-    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
     "Marketing/Marketing.md",
     "Vault.md",
     "Untitled.md",
     "F2/Unidad II.md",
-    "conflict-files-obsidian-git.md",
     "F2/Formulario Unidades I y II.md",
     "F2/Unidad I.md",
     "F2/Campo Eléctrico ($/vec{E}$).md",

@@ -244,7 +244,7 @@ int main () {
 
 Las **señales (signals)** son un mecanismo de comunicación asíncrona que permite enviar notificaciones a los procesos. Cuando un proceso recibe una señal, interrumpe temporalmente su flujo de ejecución para ejecutar un manejador de señales (*signal handler*).
 
-Las señales más comunes en Linux son:
+Las señales más comunes en Linux son: 
 
 | Señal | Acción por Defecto | Causa |
 |:--|:--|:--|

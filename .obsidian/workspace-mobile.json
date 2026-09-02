@@ -11,12 +11,14 @@
             "id": "6e1f7be153aa1059",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "LP3/Advanced_Linux_Programming.pdf"
+                "file": "LP3/3 - Processes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Advanced_Linux_Programming"
+              "icon": "lucide-file",
+              "title": "3 - Processes"
             }
           }
         ]
@@ -89,7 +91,7 @@
         }
       },
       {
-        "id": "48c40ff1d3ff2819",
+        "id": "475464abe599a7b0",
         "type": "leaf",
         "state": {
           "type": "mk-path-view",
@@ -185,8 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "623a45bda2ffe100",
+  "active": "6e1f7be153aa1059",
   "lastOpenFiles": [
+    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
+    "LP3/Advanced_Linux_Programming.pdf",
     "Tags",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "/SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
@@ -211,8 +215,6 @@
     "/Recursos/20251018112326.png",
     "/Java.md",
     "TOM",
-    "Recursos",
-    "/TOM",
-    "/Recursos"
+    "Recursos"
   ]
 }
