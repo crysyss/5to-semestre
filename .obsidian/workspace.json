@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fffbe59f0dfaea73",
+        "id": "c11ccccbbb7a9249",
         "type": "tabs",
         "children": [
           {
-            "id": "e259ffc57f9b3a57",
+            "id": "8f2c0c4f08f55995",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 1. Temario Primera Parte 2026"
             }
           }
         ]
@@ -76,7 +78,7 @@
             }
           },
           {
-            "id": "5f5a7acd1518f67b",
+            "id": "bf041fc5bf914572",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -90,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "febe18bd59b062ed",
@@ -228,8 +229,9 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "71ae7f04bd5c3f11",
+  "active": "8f2c0c4f08f55995",
   "lastOpenFiles": [
+    "Marketing/2026-08-31.md",
     "SistemasDistribuidos/CAPITULO_04.pdf",
     "LP3/5 - Interprocess Communication.md",
     "LP3/4 - Threads.md",
