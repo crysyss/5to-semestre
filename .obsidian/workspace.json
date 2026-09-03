@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c11ccccbbb7a9249",
+        "id": "731d80db51201ad9",
         "type": "tabs",
         "children": [
           {
-            "id": "8f2c0c4f08f55995",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 1. Temario Primera Parte 2026"
-            }
-          },
-          {
-            "id": "b604e33e1944e7d5",
+            "id": "3fbad944b72e3b57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
+                "file": "LP3/1 - Getting Started.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "1 - Getting Started"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +80,7 @@
             }
           },
           {
-            "id": "bf041fc5bf914572",
+            "id": "104fdc577ea7f221",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -244,25 +231,26 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "b604e33e1944e7d5",
+  "active": "3fbad944b72e3b57",
   "lastOpenFiles": [
+    "LP3/Ejemplos IPC - Capitulo 5.pdf",
+    "LP3/msoFD27.tmp",
+    "Marketing/Capítulo 2. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 8. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 5. Temario Primera Parte 2026.pdf",
+    "Marketing/Capítulo 7. Temario Primera Parte 2026.pdf",
     "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
+    "LP3/Capitulo 5 - IPC.pdf",
+    "LP3/Casos_Aplicacion_Hilos_Cap4.pdf",
+    "LP3/5 - Interprocess Communication.md",
+    "LP3/Capitulo 4 - Hilos - Resumen de Clase.pdf",
+    "LP3/Ejercicios_Repaso_Capitulo_3.pdf",
     "conflict-files-obsidian-git.md",
     "Marketing/2026-08-31.md",
-    "SistemasDistribuidos/CAPITULO_04.pdf",
-    "LP3/5 - Interprocess Communication.md",
     "LP3/4 - Threads.md",
     "LP3/3 - Processes.md",
     "LP3/2 - Writing Local Programs.md",
     "LP3/1 - Getting Started.md",
-    "LP3/Capitulo 5 - IPC.pdf",
-    "LP3/Capitulo 4 - Hilos - Resumen de Clase.pdf",
-    "LP3/Chp3_Procesos.pdf",
-    "LP3/Casos_Aplicacion_Hilos_Cap4.pdf",
-    "LP3/msoF0CF.tmp",
-    "LP3/mso3E3D.tmp",
-    "LP3/msoF5BE.tmp",
-    "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "Marketing/Marketing.md",
     "Vault.md",
     "Untitled.md",

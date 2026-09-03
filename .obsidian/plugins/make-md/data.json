@@ -38,7 +38,8 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//LP3"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
