@@ -70,6 +70,27 @@
       ],
       "env": [],
       "enabled": false
+    },
+    "pi-acp": {
+      "id": "pi-acp",
+      "displayName": "Pi",
+      "apiKeySecretId": "",
+      "command": "pi-acp",
+      "args": [],
+      "env": [],
+      "enabled": true
+    },
+    "grok-build": {
+      "id": "grok-build",
+      "displayName": "Grok Build",
+      "apiKeySecretId": "",
+      "command": "grok",
+      "args": [
+        "agent",
+        "stdio"
+      ],
+      "env": [],
+      "enabled": true
     }
   },
   "customAgents": [],
@@ -95,6 +116,9 @@
     "includeImages": true,
     "imageLocation": "obsidian",
     "imageCustomFolder": "Agent Client",
+    "includeAudios": true,
+    "audioLocation": "obsidian",
+    "audioCustomFolder": "Agent Client",
     "frontmatterTag": "agent-client"
   },
   "windowsWslMode": false,
@@ -109,6 +133,46 @@
     "fontSize": null
   },
   "savedSessions": [
+    {
+      "sessionId": "ses_f5974fe25ffeO9kWdQLCOyAdjg",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "haz un resumen en .md del capitulo 2 de marketing",
+      "createdAt": "2026-09-15T19:30:42.774Z",
+      "updatedAt": "2026-09-15T20:44:57.841Z"
+    },
+    {
+      "sessionId": "ses_f597b189cffemlCNAaQ5i8Ng97",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "hola",
+      "createdAt": "2026-09-15T19:22:52.321Z",
+      "updatedAt": "2026-09-15T19:25:17.093Z"
+    },
+    {
+      "sessionId": "ses_f597bfdf4ffegdLJCUpIFiBJWC",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "HAZ UN RESUMEN EN .MD DEL CAPITULO 2 DE MARKETING",
+      "createdAt": "2026-09-15T19:21:58.969Z",
+      "updatedAt": "2026-09-15T19:21:58.970Z"
+    },
+    {
+      "sessionId": "ses_f5a3d9c57ffed00N0C3rz7ZpOm",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "quiero un resumen en .md de la unidad 2 de mark...",
+      "createdAt": "2026-09-15T15:52:52.263Z",
+      "updatedAt": "2026-09-15T15:56:15.286Z"
+    },
+    {
+      "sessionId": "ses_f6ccb51b1ffesOFZT6WEWeIj7m",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Haz un resumen del capitulo 1",
+      "createdAt": "2026-09-12T01:23:46.123Z",
+      "updatedAt": "2026-09-12T01:24:35.980Z"
+    },
     {
       "sessionId": "ses_fa66a62d6ffe2d11J6VTOlRon9",
       "agentId": "opencode",
@@ -135,13 +199,17 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "google/gemini-3.6-flash"
+    "opencode": "opencode/big-pickle"
   },
   "lastUsedModes": {},
   "lastUsedConfigOptions": {
     "opencode": {
-      "effort": "low"
+      "effort": "medium"
     }
+  },
+  "sessionHistoryFilters": {
+    "currentVaultOnly": true,
+    "hideNonLocal": false
   },
   "enableFloatingChat": false,
   "floatingButtonImage": "",

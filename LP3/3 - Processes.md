@@ -77,7 +77,7 @@ Para distinguir si estamos en el proceso padre o en el proceso hijo, examinamos 
 
 ```c
 #include <stdio.h>
-#include <sys/types.h>
+#include <sys/types.h> " Necesario para pid_t "
 #include <unistd.h>
 
 int main () {

@@ -39,7 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//LP3"
+    "//Tags",
+    "//F2",
+    "//Marketing"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
