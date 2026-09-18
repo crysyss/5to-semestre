@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "sessionId": "ses_f5a3d9c57ffed00N0C3rz7ZpOm",
+  "agentId": "opencode",
+  "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+  "title": "quiero un resumen en .md de la unidad 2 de mark...",
+  "createdAt": "2026-09-15T15:52:52.263Z",
+  "updatedAt": "2026-09-15T15:52:52.267Z",
+  "messages": [
+    {
+      "id": "65a13624-259f-4d0c-a106-d32652b1e263",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "quiero un resumen en .md de la unidad 2 de marketing",
+          "autoMentionContext": {
+            "noteName": "Capítulo 2. Temario Primera Parte 2026",
+            "notePath": "Marketing/Capítulo 2. Temario Primera Parte 2026.pdf"
+          }
+        }
+      ],
+      "timestamp": "2026-09-15T15:50:15.203Z"
+    },
+    {
+      "id": "68320889-e23f-452c-8450-7ae3ac613199",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "quiero un resumen en .md de la unidad 2 de marketing",
+          "autoMentionContext": {
+            "noteName": "Unidad II",
+            "notePath": "F2/Unidad II.md"
+          }
+        }
+      ],
+      "timestamp": "2026-09-15T15:53:42.127Z"
+    }
+  ],
+  "savedAt": "2026-09-15T15:56:15.287Z"
+}

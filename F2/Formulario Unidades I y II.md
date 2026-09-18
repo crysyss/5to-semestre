@@ -189,12 +189,12 @@
 
 ## 9. Combinación de Capacitores en Circuitos
 
-| Propiedad | Conexión en Serie | Conexión en Paralelo |
-| :--- | :---: | :---: |
-| **Carga ($Q$)** | $Q_{\text{eq}} = Q_1 = Q_2 = \dots$ | $Q_{\text{eq}} = Q_1 + Q_2 + \dots$ |
-| **Voltaje ($V$)** | $V_{\text{eq}} = V_1 + V_2 + \dots$ | $V_{\text{eq}} = V_1 = V_2 = \dots$ |
-| **Capacitancia Equivalente** | $$\frac{1}{C_{\text{eq}}} = \sum_{i} \frac{1}{C_i}$$ | $$C_{\text{eq}} = \sum_{i} C_i$$ |
-| **Dos capacitores (fórmula rápida)** | $$C_{\text{eq}} = \frac{C_1 C_2}{C_1 + C_2}$$ | $$C_{\text{eq}} = C_1 + C_2$$ |
+| Propiedad                            |                  Conexión en Serie                   |        Conexión en Paralelo         |
+| :----------------------------------- | :--------------------------------------------------: | :---------------------------------: |
+| **Carga ($Q$)**                      |         $Q_{\text{eq}} = Q_1 = Q_2 = \dots$          | $Q_{\text{eq}} = Q_1 + Q_2 + \dots$ |
+| **Voltaje ($V$)**                    |         $V_{\text{eq}} = V_1 + V_2 + \dots$          | $V_{\text{eq}} = V_1 = V_2 = \dots$ |
+| **Capacitancia Equivalente**         | $$\frac{1}{C_{\text{eq}}} = \sum_{i} \frac{1}{C_i}$$ |  $$C_{\text{eq}} = \sum_{i} C_i$$   |
+| **Dos capacitores (fórmula rápida)** |    $$C_{\text{eq}} = \frac{C_1 C_2}{C_1 + C_2}$$     |    $$C_{\text{eq}} = C_1 + C_2$$    |
 
 ---
 

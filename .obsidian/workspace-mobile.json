@@ -13,11 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "LP3/4 - Threads.md",
+=======
+                "file": "LP3/3 - Processes.md",
+>>>>>>> f205e0cc42452a797d3c29be81c677638cea417e
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "4 - Threads"
             }
           },
@@ -32,6 +37,8 @@
                 "source": false
               },
               "icon": "lucide-file",
+=======
+>>>>>>> f205e0cc42452a797d3c29be81c677638cea417e
               "title": "3 - Processes"
             }
           }
@@ -105,7 +112,11 @@
         }
       },
       {
+<<<<<<< HEAD
         "id": "8c746dba37f77b62",
+=======
+        "id": "475464abe599a7b0",
+>>>>>>> f205e0cc42452a797d3c29be81c677638cea417e
         "type": "leaf",
         "state": {
           "type": "mk-path-view",
@@ -201,6 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "02ca37ccd669137f",
   "lastOpenFiles": [
     "LP3/3 - Processes.md",
@@ -208,6 +220,11 @@
     "Vault.md",
     "conflict-files-obsidian-git.md",
     "LP3/4 - Threads.md",
+=======
+  "active": "6e1f7be153aa1059",
+  "lastOpenFiles": [
+    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
+>>>>>>> f205e0cc42452a797d3c29be81c677638cea417e
     "LP3/Advanced_Linux_Programming.pdf",
     "Tags",
     "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",

@@ -77,7 +77,7 @@ Para distinguir si estamos en el proceso padre o en el proceso hijo, examinamos 
 
 ```c
 #include <stdio.h>
-#include <sys/types.h>
+#include <sys/types.h> " Necesario para pid_t "
 #include <unistd.h>
 
 int main () {
@@ -244,7 +244,7 @@ int main () {
 
 Las **señales (signals)** son un mecanismo de comunicación asíncrona que permite enviar notificaciones a los procesos. Cuando un proceso recibe una señal, interrumpe temporalmente su flujo de ejecución para ejecutar un manejador de señales (*signal handler*).
 
-Las señales más comunes en Linux son:
+Las señales más comunes en Linux son: 
 
 | Señal | Acción por Defecto | Causa |
 |:--|:--|:--|

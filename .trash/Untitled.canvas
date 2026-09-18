@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"8acb021e07e926c5","x":-640,"y":-400,"width":250,"height":60,"color":"#ff0000","type":"text","text":"- [ ] Hola\n- [ ] sdsdf"},
+		{"id":"349bc83a5e33df24","x":-300,"y":-640,"width":360,"height":270,"type":"file","file":"SistemasDistribuidos/CAPITULO_04.pdf"}
+	],
+	"edges":[]
+}
