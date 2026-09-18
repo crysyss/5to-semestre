@@ -134,6 +134,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_f50489688ffeuZSHt2UcvtISV2",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "haz un resumen en .md de la unidad III en la ca...",
+      "createdAt": "2026-09-17T14:16:29.487Z",
+      "updatedAt": "2026-09-18T01:32:31.798Z"
+    },
+    {
       "sessionId": "ses_f5974fe25ffeO9kWdQLCOyAdjg",
       "agentId": "opencode",
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
@@ -199,12 +207,12 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "opencode/big-pickle"
+    "opencode": "google/gemini-3.5-flash"
   },
   "lastUsedModes": {},
   "lastUsedConfigOptions": {
     "opencode": {
-      "effort": "medium"
+      "effort": "low"
     }
   },
   "sessionHistoryFilters": {
