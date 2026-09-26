@@ -134,12 +134,20 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_f4a5c9572ffeajRMFXkGcY5CB0",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Quiero que hagas un .md para cada capitulo de l...",
+      "createdAt": "2026-09-18T17:56:20.513Z",
+      "updatedAt": "2026-09-18T18:23:29.039Z"
+    },
+    {
       "sessionId": "ses_f50489688ffeuZSHt2UcvtISV2",
       "agentId": "opencode",
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
       "title": "haz un resumen en .md de la unidad III en la ca...",
       "createdAt": "2026-09-17T14:16:29.487Z",
-      "updatedAt": "2026-09-18T01:32:31.798Z"
+      "updatedAt": "2026-09-25T17:42:53.748Z"
     },
     {
       "sessionId": "ses_f5974fe25ffeO9kWdQLCOyAdjg",
@@ -207,7 +215,7 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "google/gemini-3.5-flash"
+    "opencode": "opencode/big-pickle"
   },
   "lastUsedModes": {},
   "lastUsedConfigOptions": {
@@ -217,7 +225,7 @@
   },
   "sessionHistoryFilters": {
     "currentVaultOnly": true,
-    "hideNonLocal": false
+    "hideNonLocal": true
   },
   "enableFloatingChat": false,
   "floatingButtonImage": "",

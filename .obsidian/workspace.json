@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "703efc00b3b1c96b",
+        "id": "fa679d160de100dc",
         "type": "tabs",
         "children": [
           {
-            "id": "c7e635e79c3de916",
+            "id": "d4eefea7b0fed309",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F2/Formulario Unidad III.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Formulario Unidad III"
-            }
-          },
-          {
-            "id": "def941c5bf85be80",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "F2/Material de lectura Unidad III.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Material de lectura Unidad III"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -92,7 +76,7 @@
             }
           },
           {
-            "id": "11bf4df222cbb8c8",
+            "id": "30fd8aa935da4889",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -218,7 +202,7 @@
               "type": "agent-client-chat-view",
               "state": {},
               "icon": "bot-message-square",
-              "title": "haz un resumen en .md de la unidad III en la ca..."
+              "title": "New session"
             }
           }
         ],
@@ -243,13 +227,32 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "F2/Material de lectura Unidad III.pdf",
-    "F2/Formulario Unidad III.md",
-    "F2/Material de lectura unidad 1.pdf",
+    "conflict-files-obsidian-git.md",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/63734449-6885-4452-82d6-28cef73d0a91_SZTh.htm",
+    "F2/Unidad IV.md",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/a_data/main_SZTh.js",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/63734449-6885-4452-82d6-28cef73d0a91_data/frame-shell-BJ1eigXZ_SZTh.js",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/63734449-6885-4452-82d6-28cef73d0a91_data/a_SZTh.htm",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/63734449-6885-4452-82d6-28cef73d0a91_data/a_002_SZTh.htm",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_002_SZTh.webp",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/shared-styles-2IjH64YL_SZTh.css",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/shared-frame-DIfsUH5X_SZTh.css",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/index-B3-rRb0Y_SZTh.js",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/cf1a02a1a-DdTz_5PL_SZTh.css",
+    "F2/Mejora de procesos para entregable 3 - Claude_files/c6a992d55-D2EL6GWy_SZTh.css",
+    "F2/Formulario Unidad IV.md",
     "F2/Unidad III.md",
-    "F2/Material de Lectura2 .pdf",
-    "F2/Unidad II.md",
+    "SistemasDistribuidos/Unidad 1 - Caracterización de los Sistemas Distribuidos.md",
+    "SistemasDistribuidos/Unidad 5 - Tiempo y Estados Globales.md",
+    "SistemasDistribuidos/Unidad 3 - Comunicación entre Procesos.md",
+    "SistemasDistribuidos/Unidad 4 - Objetos Distribuidos e Invocación.md",
+    "SistemasDistribuidos/Unidad 2 - Modelos de Sistemas.md",
     "F2/Formulario Unidades I y II.md",
+    "F2/Formulario Unidad III.md",
+    "F2/Unidad II.md",
     "F2/Unidad I.md",
     "Marketing/Capítulo 1. Resumen Marketing.md",
     "Marketing/Capítulo 8. Resumen Marketing.md",
@@ -257,28 +260,14 @@
     "Marketing/Capítulo 5. Resumen Marketing.md",
     "Marketing/Capítulo 2. Resumen Marketing.md",
     "Marketing/Las 4 P del Marketing.md",
-    "Marketing/Capítulo 1. Temario Primera Parte 2026.pdf",
-    "Marketing/Temario primera etapa OPTATIVA -MARKETING2026.pdf",
-    "Marketing/Capítulo 2. Temario Primera Parte 2026.pdf",
-    "Marketing/mso64D4.tmp",
     "Marketing/Capítulo 1. Resumen.md",
-    "F2/Serway_Fisica_Vol_2.pdf",
     "Marketing/Marketing.md",
     "F2/Untitled.canvas",
-    "SistemasDistribuidos/UNIDAD_01.pdf",
     "SistemasDistribuidos/Java.md",
-    "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "LP3/1 - Getting Started.md",
     "LP3/2 - Writing Local Programs.md",
     "LP3/3 - Processes.md",
     "LP3/4 - Threads.md",
-    "LP3/5 - Interprocess Communication.md",
-    "conflict-files-obsidian-git.md",
-    "Marketing/2026-08-31.md",
-    "Vault.md",
-    "Untitled.md",
-    "F2/Campo Eléctrico ($/vec{E}$).md",
-    "F2/Formulario1.md",
     "Recursos/20251018113518.png",
     "Recursos/20251018113612.png",
     "Recursos/20251018112326.png",
