@@ -11,10 +11,14 @@
             "id": "d4eefea7b0fed309",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SistemasDistribuidos/26092026.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "26092026"
             }
           }
         ]
@@ -76,7 +80,7 @@
             }
           },
           {
-            "id": "30fd8aa935da4889",
+            "id": "89d65705aa991ac2",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -225,9 +229,10 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "71ae7f04bd5c3f11",
+  "active": "d4eefea7b0fed309",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "SistemasDistribuidos/26092026.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/63734449-6885-4452-82d6-28cef73d0a91_SZTh.htm",
     "F2/Unidad IV.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/a_data/main_SZTh.js",
@@ -267,7 +272,6 @@
     "LP3/1 - Getting Started.md",
     "LP3/2 - Writing Local Programs.md",
     "LP3/3 - Processes.md",
-    "LP3/4 - Threads.md",
     "Recursos/20251018113518.png",
     "Recursos/20251018113612.png",
     "Recursos/20251018112326.png",
