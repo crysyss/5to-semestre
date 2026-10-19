@@ -1,0 +1,60 @@
+16.3 Nested transactions 
+Nested transactions extend the above transaction model by allowing transactions to be composed of other transactions. Thus several transactions may be started from within a 
+transaction, allowing transactions to be re garded as modules that can be co mposed as required.
+The outer most transaction in a set of nested transactions is called the top-level transaction. Transactions other than the top-level transaction are called subtransactions.
+For e xample, in Fi gure 16.13, T is a top-level transaction that starts a pair of subtransactions, T1 and T2. The subtransaction T1 starts its own pair of subtransactions, 
+T11 and T22. Also, subtransaction T2 starts its own subtransaction, T21, which starts another subtransaction, T211.
+A subtransaction appears ato mic to its parent with respect to transaction failures and to concurrent access. Subtransactions at the sa me level, such as T1 and T2, can run 
+concurrently, but their access to co mmon ob jects is serialized â€“ for e xample, b y the locking scheme described in Section 16.4. Each subtransaction can fail independently of 
+its parent and of the other subtransactions. When a subtransaction aborts, the parent transaction can sometimes choose an alternative subtransaction to complete its task. For 
+example, a transaction to deliver a mail message to a list of recipients could be structured as a set of subtransactions, each of which delivers the message to one of the recipients. 
+If one or more of the subtransactions fails, the parent transaction could record the fact and then co mmit, with the result that all the successful child transactions co mmit. It 
+could then start another transaction to atte mpt to redeliver the messages that were not sent the first time.
+
+
+Figure 16.13 Nested transactions
+T  : top-level transaction
+T1 = openSubTransaction T2 = openSubTransaction openSubTransaction openSubTransactionopenSubTransaction
+openSubTransaction
+T1 : T2 :
+T11 : T12 : 
+T211 : 
+T21 : 
+provisional commit provisional commit
+abort provisional commitprovisional commit
+provisional commit commit
+
+When we need to distin guish our ori ginal form of transaction fro m nested ones, 
+we use the term flat transaction. It is flat because all of its work is done at the same level between an openTransaction and a commit or abort, and it is not possible to commit or 
+abort parts of it. Nested transactions have the following main advantages:
+1. Subtransactions at one level (and their descendants) may run concurrentl y with other subtransactions at the same level in the hierarchy. This can allow additional 
+concurrency in a transaction. When subtransactions run in different servers, the y can wor k in parallel. For e xample, consider the branchTotal operation in our 
+banking example. It can be implemented by invoking getBalance at every account in the branch. Now each of these invocations may be perfor med as a 
+subtransaction, in which case they can be performed concurrently. Since each one applies to a different account, there will be no conflictin g operations a mong the 
+subtransactions. 
+2. Subtransactions can co mmit or abort independentl y. In comparison with a single transaction, a set of nested subtransactions is potentiall y more robust. The above 
+example of deliverin g mail shows that this is so â€“ with a flat transaction, one transaction failure would cause the whole transaction to be restarted. In fact, a 
+parent can decide on different actions accordin g to whether a subtransaction has aborted or not.
+The rules for committing of nested transactions are rather subtle:
+ A transaction may co mmit or abort onl y after its child transactions have completed.
+ When a subtransaction co mpletes, it makes an independent decision either to commit provisionally or to abort. Its decision to abort is final.
+ When a parent aborts, all of its subtransactions are aborted. For e xample, if T2 aborts then T21 and T211 must also abort, even though they may have provisionally 
+committed.
+ When a subtransaction aborts, the parent can decide whether to abort or not. In our example, T decides to commit although T2 has aborted.
+
+--- PAGE 710 --692 
+ If the top-level transaction co mmits, then all of the subtransactions that have provisionally committed can commit too, provided that none of their ancestors has 
+aborted. In our e xample, Tâ€™s commitment allows T1, T11 and T12 to commit, but not T21 and T211 since their parent, T2, aborted. Note that the effects of a 
+subtransaction are not permanent until the top-level transaction commits. 
+In some cases, the top-level transaction may decide to abort because one or more of its subtransactions have aborted. As an e xample, consider the followin g Transfer
+transaction: 
+Transfer $100 from B to A a.deposit(100)
+b.withdraw(100)
+This can be structured as a pair of subtransactions, one for the withdraw operation and the other for deposit. When the two subtransactions both co mmit, the Transfer
+transaction can also co mmit. Suppose that a withdraw subtransaction aborts whenever an account is overdrawn. Now consider the case when the withdraw subtransaction 
+aborts and the deposit subtransaction co mmits â€“ and recall that the co mmitment of a child transaction is conditional on the parent transaction co mmitting. We presume that 
+the top-level ( Transfer) transaction will decide to abort. The abortin g of the parent transaction causes the subtransactions to abort â€“ so the deposit transaction is aborted and 
+all its effects are undone.
+The COR BA Ob ject Transaction Service supports both flat and nested transactions. Nested transactions are particularl y useful in distributed s ystems because 
+child transactions may be run concurrentl y in different servers. We return to this issue in Chapter 17. This form of nested transactions is due to Moss [1985]. Other variants of 
+nested transactions with different serializabilit y properties have been proposed; for example, see Weikum [1991]. 

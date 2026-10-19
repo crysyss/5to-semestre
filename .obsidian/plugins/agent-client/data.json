@@ -134,6 +134,22 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_eb5954ab9ffeWl3xU4u6GU4ByG",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Transcribe a un .md todo el contenido de estas ...",
+      "createdAt": "2026-10-17T15:13:10.638Z",
+      "updatedAt": "2026-10-17T21:58:11.889Z"
+    },
+    {
+      "sessionId": "ses_ed81f7c14ffeQ1haiegxN48pvD",
+      "agentId": "opencode",
+      "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
+      "title": "Necesito preparar una exposicion con estos cont...",
+      "createdAt": "2026-10-10T22:16:58.800Z",
+      "updatedAt": "2026-10-10T22:17:05.799Z"
+    },
+    {
       "sessionId": "ses_f4a5c9572ffeajRMFXkGcY5CB0",
       "agentId": "opencode",
       "cwd": "C:\\Users\\joaqu\\Documents\\5to-semestre",
@@ -220,7 +236,7 @@
   "lastUsedModes": {},
   "lastUsedConfigOptions": {
     "opencode": {
-      "effort": "low"
+      "effort": "medium"
     }
   },
   "sessionHistoryFilters": {
