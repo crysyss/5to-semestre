@@ -8,16 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e84f13e5c70a643c",
+            "id": "8c679434c2e4aa3f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Programacion Bash - Cap 4-5-6 - Clase 2"
+            }
+          },
+          {
+            "id": "ec0c28063d9749ff",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Programacion Bash - Cap 7-8-9 - Clase 3"
+            }
+          },
+          {
+            "id": "e6fbeb51aa6920a4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Bash-Beginners-Guide"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +103,7 @@
             }
           },
           {
-            "id": "2836e969c1fd3623",
+            "id": "1d62a47072ac5552",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -90,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "febe18bd59b062ed",
@@ -225,25 +253,28 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "71ae7f04bd5c3f11",
+  "active": "ec0c28063d9749ff",
   "lastOpenFiles": [
+    "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf",
+    "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
+    "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf",
+    "LP3/Segundo Parcial/mso7B93.tmp",
+    "F2/Unidad IV.md",
+    "F2/Material de lectura Unidad 4.pdf",
+    "F2/Formulario Unidad IV.md",
+    "F2/Material de lectura Unidad III.pdf",
+    "F2/Serway_Fisica_Vol_2.pdf",
+    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
     "SistemasDistribuidos/16.3-16.5_Transacciones_anidadas_Bloqueos_Control_optimista_de_la_concurrencia.md",
     "SistemasDistribuidos/Unidad 5 - Tiempo y Estados Globales.md",
     "sec16_5_formatted.txt",
-    "sec16_4_formatted.txt",
-    "sec16_3_formatted.txt",
-    "sec16_5_clean.txt",
-    "sec16_4_clean.txt",
-    "sec16_3_clean.txt",
-    "16_5_fixed.txt",
-    "16_4_fixed.txt",
-    "16_3_fixed.txt",
     "SistemasDistribuidos/Unidad 4 - Objetos Distribuidos e Invocación.md",
     "SistemasDistribuidos/Unidad 3 - Comunicación entre Procesos.md",
     "SistemasDistribuidos/Unidad 2 - Modelos de Sistemas.md",
     "SistemasDistribuidos/Unidad 1 - Caracterización de los Sistemas Distribuidos.md",
     "SistemasDistribuidos/Java.md",
-    "SistemasDistribuidos/george-coulouris-distributed-systems-concepts-and-design-5th-edition-2.pdf",
     "SistemasDistribuidos/26092026.md",
     "Marketing/Resumen Cap 16 - Venta Personal y Promocion de Ventas.md",
     "LP3/LP3.md",
@@ -256,12 +287,10 @@
     "LP3/Primer parcial/1 - Getting Started.md",
     "Marketing/Capítulo 1. Resumen Marketing.md",
     "conflict-files-obsidian-git.md",
-    "F2/Unidad IV.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_002_SZTh.webp",
-    "F2/Formulario Unidad IV.md",
     "F2/Unidad III.md",
     "F2/Formulario Unidades I y II.md",
     "F2/Formulario Unidad III.md",
