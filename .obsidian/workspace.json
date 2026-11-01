@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c679434c2e4aa3f",
+            "id": "d23c09bb17e64df4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Introducción a Bash - Clase 1 - Cap 1 a 3"
+            }
+          },
+          {
+            "id": "2dec02cb3b8825d5",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -32,6 +44,18 @@
             }
           },
           {
+            "id": "756ca3d1890523b7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Programacion Bash - Cap 10-11-12 - Clase 4"
+            }
+          },
+          {
             "id": "e6fbeb51aa6920a4",
             "type": "leaf",
             "state": {
@@ -43,8 +67,7 @@
               "title": "Bash-Beginners-Guide"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +126,7 @@
             }
           },
           {
-            "id": "1d62a47072ac5552",
+            "id": "73f18fa6f4005c14",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -117,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "febe18bd59b062ed",
@@ -253,12 +275,12 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "ec0c28063d9749ff",
+  "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
     "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf",
     "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf",
-    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
     "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf",
     "LP3/Segundo Parcial/mso7B93.tmp",
     "F2/Unidad IV.md",
