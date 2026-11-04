@@ -11,10 +11,14 @@
             "id": "7692ff39d51d1282",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "F2/Formulario Unidad VI.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Formulario Unidad VI"
             }
           }
         ]
@@ -228,17 +232,19 @@
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
     "F2/Formulario Unidad V.md",
-    "F2/Unidad V.md",
-    "F2/Unidad VI.md",
     "F2/Formulario Unidad VI.md",
+    "F2/Formulario Unidades I y II.md",
+    "F2/Formulario Unidad III.md",
+    "F2/Formulario Unidad IV.md",
+    "F2/Unidad IV.md",
+    "F2/Unidad VI.md",
+    "F2/Unidad V.md",
     "F2/Material de lectura Unidad 4.pdf",
     "F2/Formulario Unidad VII.md",
     "F2/Unidad VII.md",
-    "F2/Unidad IV.md",
     "F2/Material de Lectura Unidad VI.pdf",
     "F2/Material de Lectura Unidad V.pdf",
     "F2/Material de lectura unidad 1.pdf",
-    "F2/Formulario Unidad IV.md",
     "LP3/Segundo Parcial/Segundo Parcial.md",
     "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf",
     "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
@@ -261,8 +267,6 @@
     "LP3/Primer parcial/4 - Threads.md",
     "LP3/Primer parcial/3 - Processes.md",
     "LP3/Primer parcial/2 - Writing Local Programs.md",
-    "LP3/Primer parcial/1 - Getting Started.md",
-    "Marketing/Capítulo 1. Resumen Marketing.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",
