@@ -4,67 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35d525d3d3a4ad01",
+        "id": "a10474762fe3e9ae",
         "type": "tabs",
         "children": [
           {
-            "id": "d23c09bb17e64df4",
+            "id": "7692ff39d51d1282",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Introducción a Bash - Clase 1 - Cap 1 a 3"
-            }
-          },
-          {
-            "id": "2dec02cb3b8825d5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Programacion Bash - Cap 4-5-6 - Clase 2"
-            }
-          },
-          {
-            "id": "ec0c28063d9749ff",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Programacion Bash - Cap 7-8-9 - Clase 3"
-            }
-          },
-          {
-            "id": "756ca3d1890523b7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Programacion Bash - Cap 10-11-12 - Clase 4"
-            }
-          },
-          {
-            "id": "e6fbeb51aa6920a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Bash-Beginners-Guide"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -126,7 +76,7 @@
             }
           },
           {
-            "id": "73f18fa6f4005c14",
+            "id": "e66c1d94eb341fc5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -252,7 +202,7 @@
               "type": "agent-client-chat-view",
               "state": {},
               "icon": "bot-message-square",
-              "title": "New session"
+              "title": "Haz un resumen en un .md de la unidad VI, con o..."
             }
           }
         ],
@@ -277,21 +227,27 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
-    "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf",
+    "F2/Formulario Unidad V.md",
+    "F2/Unidad V.md",
+    "F2/Unidad VI.md",
+    "F2/Formulario Unidad VI.md",
+    "F2/Material de lectura Unidad 4.pdf",
+    "F2/Formulario Unidad VII.md",
+    "F2/Unidad VII.md",
+    "F2/Unidad IV.md",
+    "F2/Material de Lectura Unidad VI.pdf",
+    "F2/Material de Lectura Unidad V.pdf",
+    "F2/Material de lectura unidad 1.pdf",
+    "F2/Formulario Unidad IV.md",
+    "LP3/Segundo Parcial/Segundo Parcial.md",
     "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf",
     "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf",
+    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
     "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf",
     "LP3/Segundo Parcial/mso7B93.tmp",
-    "F2/Unidad IV.md",
-    "F2/Material de lectura Unidad 4.pdf",
-    "F2/Formulario Unidad IV.md",
-    "F2/Material de lectura Unidad III.pdf",
-    "F2/Serway_Fisica_Vol_2.pdf",
-    "F2/Sears_Zemansky_Fisica_Universitaria_Vol_2.pdf",
     "SistemasDistribuidos/16.3-16.5_Transacciones_anidadas_Bloqueos_Control_optimista_de_la_concurrencia.md",
     "SistemasDistribuidos/Unidad 5 - Tiempo y Estados Globales.md",
-    "sec16_5_formatted.txt",
     "SistemasDistribuidos/Unidad 4 - Objetos Distribuidos e Invocación.md",
     "SistemasDistribuidos/Unidad 3 - Comunicación entre Procesos.md",
     "SistemasDistribuidos/Unidad 2 - Modelos de Sistemas.md",
@@ -301,22 +257,16 @@
     "Marketing/Resumen Cap 16 - Venta Personal y Promocion de Ventas.md",
     "LP3/LP3.md",
     "LP3/Primer parcial/Primer parcial.md",
-    "LP3/Segundo Parcial/Segundo Parcial.md",
     "LP3/Primer parcial/5 - Interprocess Communication.md",
     "LP3/Primer parcial/4 - Threads.md",
     "LP3/Primer parcial/3 - Processes.md",
     "LP3/Primer parcial/2 - Writing Local Programs.md",
     "LP3/Primer parcial/1 - Getting Started.md",
     "Marketing/Capítulo 1. Resumen Marketing.md",
-    "conflict-files-obsidian-git.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_002_SZTh.webp",
-    "F2/Unidad III.md",
-    "F2/Formulario Unidades I y II.md",
-    "F2/Formulario Unidad III.md",
-    "F2/Unidad II.md",
     "F2/Untitled.canvas",
     "Recursos/20251018113518.png",
     "Recursos/20251018113612.png",
