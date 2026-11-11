@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "a10474762fe3e9ae",
+        "id": "dfd02e85e026a9ff",
         "type": "tabs",
         "children": [
           {
-            "id": "7692ff39d51d1282",
+            "id": "47a6cbdea7785c24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F2/Formulario Unidad VI.md",
-                "mode": "source",
+                "file": "F2/Unidad V.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formulario Unidad VI"
+              "title": "Unidad V"
+            }
+          },
+          {
+            "id": "697353ce683ad304",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "F2/Material de Lectura Unidad V.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Material de Lectura Unidad V"
+            }
+          },
+          {
+            "id": "3a6279c4201e4f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Formulario Unidad V.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Formulario Unidad V"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +107,7 @@
             }
           },
           {
-            "id": "e66c1d94eb341fc5",
+            "id": "62073738b7d5beb8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -206,7 +233,7 @@
               "type": "agent-client-chat-view",
               "state": {},
               "icon": "bot-message-square",
-              "title": "Haz un resumen en un .md de la unidad VI, con o..."
+              "title": "New session"
             }
           }
         ],
@@ -231,42 +258,41 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
+    "F2/Formulario Unidad IV.md",
     "F2/Formulario Unidad V.md",
+    "F2/Unidad IV.md",
+    "F2/Unidad V.md",
+    "F2/Material de Lectura Unidad V.pdf",
+    "F2/Material de lectura Unidad 4.pdf",
+    "F2/Material de lectura Unidad III.pdf",
+    "F2/Material de Lectura2 .pdf",
+    "F2/Material de lectura unidad 1.pdf",
+    "Marketing/Segundo parcial/Cap. 18 - Creación de Ventajas Competitivas - Págs. 536-546..pdf",
+    "Marketing/Segundo parcial/Cap. 17 - Marketing Digital - Págs. 496-518.pdf",
+    "Marketing/Segundo parcial/Resumen Cap 16 - Venta Personal y Promocion de Ventas.md",
+    "Marketing/Segundo parcial/Cap. 16 - Venta Personal y Promoción de Ventas - Págs. 466-488..pdf",
+    "Marketing/Segundo parcial/Cap. 15 - Publicidad y Relaciones Públicas - Págs. 440-460.pdf",
+    "Marketing/Segundo parcial/Cap. 14 - Comunicación Integrada de Marketing - Págs. 414-429.pdf",
+    "Marketing/Segundo parcial/Segundo parcial.md",
+    "Marketing/Marketing.md",
+    "Marketing/Primer parcial/Primer parcial.md",
+    "Marketing/Primer parcial/Capítulo 8. Resumen Marketing.md",
+    "Marketing/Primer parcial/Capítulo 5. Resumen Marketing.md",
+    "Marketing/Primer parcial/Capítulo 2. Resumen Marketing.md",
+    "Marketing/Primer parcial/Capítulo 1. Resumen Marketing.md",
+    "F2/Unidad VI.md",
     "F2/Formulario Unidad VI.md",
     "F2/Formulario Unidades I y II.md",
+    "F2/Unidad II.md",
     "F2/Formulario Unidad III.md",
-    "F2/Formulario Unidad IV.md",
-    "F2/Unidad IV.md",
-    "F2/Unidad VI.md",
-    "F2/Unidad V.md",
-    "F2/Material de lectura Unidad 4.pdf",
     "F2/Formulario Unidad VII.md",
     "F2/Unidad VII.md",
-    "F2/Material de Lectura Unidad VI.pdf",
-    "F2/Material de Lectura Unidad V.pdf",
-    "F2/Material de lectura unidad 1.pdf",
     "LP3/Segundo Parcial/Segundo Parcial.md",
-    "LP3/Segundo Parcial/Introducción a Bash - Clase 1 - Cap 1 a 3.pdf",
-    "LP3/Segundo Parcial/Programacion Bash - Cap 4-5-6 - Clase 2.pdf",
-    "LP3/Segundo Parcial/Programacion Bash - Cap 7-8-9 - Clase 3.pdf",
-    "LP3/Segundo Parcial/Programacion Bash - Cap 10-11-12 - Clase 4.pdf",
-    "LP3/Segundo Parcial/Bash-Beginners-Guide.pdf",
-    "LP3/Segundo Parcial/mso7B93.tmp",
     "SistemasDistribuidos/16.3-16.5_Transacciones_anidadas_Bloqueos_Control_optimista_de_la_concurrencia.md",
     "SistemasDistribuidos/Unidad 5 - Tiempo y Estados Globales.md",
     "SistemasDistribuidos/Unidad 4 - Objetos Distribuidos e Invocación.md",
     "SistemasDistribuidos/Unidad 3 - Comunicación entre Procesos.md",
     "SistemasDistribuidos/Unidad 2 - Modelos de Sistemas.md",
-    "SistemasDistribuidos/Unidad 1 - Caracterización de los Sistemas Distribuidos.md",
-    "SistemasDistribuidos/Java.md",
-    "SistemasDistribuidos/26092026.md",
-    "Marketing/Resumen Cap 16 - Venta Personal y Promocion de Ventas.md",
-    "LP3/LP3.md",
-    "LP3/Primer parcial/Primer parcial.md",
-    "LP3/Primer parcial/5 - Interprocess Communication.md",
-    "LP3/Primer parcial/4 - Threads.md",
-    "LP3/Primer parcial/3 - Processes.md",
-    "LP3/Primer parcial/2 - Writing Local Programs.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",

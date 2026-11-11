@@ -54,8 +54,9 @@
 ## 2. Fuerza Magnética sobre una Carga en Movimiento
 
 * **Magnitud (4.1):**
-  $$F = |q|\, v_\perp B \sin\emptyset$$
-  * $|q|$: magnitud de la carga; $v_\perp$: componente de $\vec{v}$ perpendicular a $\vec{B}$.
+  $$F = |q|\, v B \sin\emptyset$$
+  * $|q|$: magnitud de la carga; 
+  * $v_\perp$: componente de $\vec{v}$ perpendicular a $\vec{B}$. (O vsin(o) ).
   * $\emptyset$: ángulo entre $\vec{v}$ y $\vec{B}$.
 
 * **Vectorial (4.2):**

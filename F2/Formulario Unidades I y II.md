@@ -19,15 +19,15 @@
 
 ## Constantes Universales y Unidades
 
-| Magnitud / Constante | Símbolo | Valor / Equivalencia S.I. |
-| :--- | :---: | :--- |
-| **Carga elemental** | $e$ | $1.6 \times 10^{-19} \text{ C}$ |
-| **Constante de Coulomb** | $K$ | $K = \frac{1}{4\pi\varepsilon_0} \approx 9 \times 10^9 \text{ N}\cdot\text{m}^2/\text{C}^2$ |
-| **Permeabilidad del vacío** | $\varepsilon_0$ | $8.85 \times 10^{-12} \text{ C}^2/(\text{N}\cdot\text{m}^2)$ |
-| **Masa del electrón** | $m_e$ | $9.11 \times 10^{-31} \text{ kg}$ |
-| **Masa del protón** | $m_p$ | $1.67 \times 10^{-27} \text{ kg}$ |
-| **Voltio** | $\text{V}$ | $1 \text{ V} = 1 \text{ J/C}$ |
-| **Faradio** | $\text{F}$ | $1 \text{ F} = 1 \text{ C/V}$ |
+| Magnitud / Constante        |     Símbolo     | Valor / Equivalencia S.I.                                                                   |
+| :-------------------------- | :-------------: | :------------------------------------------------------------------------------------------ |
+| **Carga elemental**         |       $e$       | $1.6 \times 10^{-19} \text{ C}$                                                             |
+| **Constante de Coulomb**    |       $K$       | $K = \frac{1}{4\pi\varepsilon_0} \approx 9 \times 10^9 \text{ N}\cdot\text{m}^2/\text{C}^2$ |
+| **Permeabilidad del vacío** | $\varepsilon_0$ | $8.85 \times 10^{-12} \text{ C}^2/(\text{N}\cdot\text{m}^2)$                                |
+| **Masa del electrón**       |      $m_e$      | $9.11 \times 10^{-31} \text{ kg}$                                                           |
+| **Masa del protón**         |      $m_p$      | $1.67 \times 10^{-27} \text{ kg}$                                                           |
+| **Voltio**                  |   $\text{V}$    | $1 \text{ V} = 1 \text{ J/C}$                                                               |
+| **Faradio**                 |   $\text{F}$    | $1 \text{ F} = 1 \text{ C/V}$                                                               |
 
 ---
 
