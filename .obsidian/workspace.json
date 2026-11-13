@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "dfd02e85e026a9ff",
+        "id": "3dc4af702449d16e",
         "type": "tabs",
         "children": [
           {
-            "id": "47a6cbdea7785c24",
+            "id": "e0d282c0420503b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Unidad III.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unidad III"
+            }
+          },
+          {
+            "id": "b68ff379edfb7f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Unidad IV.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unidad IV"
+            }
+          },
+          {
+            "id": "dd65f8026cfe7287",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,19 +50,49 @@
             }
           },
           {
-            "id": "697353ce683ad304",
+            "id": "65574cbc25ac13f2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "F2/Material de Lectura Unidad V.pdf"
+                "file": "F2/Formulario Unidades I y II.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Material de Lectura Unidad V"
+              "icon": "lucide-file",
+              "title": "Formulario Unidades I y II"
             }
           },
           {
-            "id": "3a6279c4201e4f23",
+            "id": "8bafc81eb073f5f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Formulario Unidad III.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Formulario Unidad III"
+            }
+          },
+          {
+            "id": "1c39291cd6f727ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F2/Formulario Unidad IV.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Formulario Unidad IV"
+            }
+          },
+          {
+            "id": "924dd0563b42e082",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -107,7 +165,7 @@
             }
           },
           {
-            "id": "62073738b7d5beb8",
+            "id": "2726825fb19483be",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -258,12 +316,16 @@
   },
   "active": "71ae7f04bd5c3f11",
   "lastOpenFiles": [
-    "F2/Formulario Unidad IV.md",
     "F2/Formulario Unidad V.md",
-    "F2/Unidad IV.md",
     "F2/Unidad V.md",
-    "F2/Material de Lectura Unidad V.pdf",
+    "F2/Unidad IV.md",
+    "F2/Formulario Unidades I y II.md",
+    "F2/Formulario Unidad IV.md",
+    "F2/Formulario Unidad III.md",
+    "F2/Unidad III.md",
     "F2/Material de lectura Unidad 4.pdf",
+    "F2/Formulario Unidad VI.md",
+    "F2/Material de Lectura Unidad V.pdf",
     "F2/Material de lectura Unidad III.pdf",
     "F2/Material de Lectura2 .pdf",
     "F2/Material de lectura unidad 1.pdf",
@@ -281,10 +343,7 @@
     "Marketing/Primer parcial/Capítulo 2. Resumen Marketing.md",
     "Marketing/Primer parcial/Capítulo 1. Resumen Marketing.md",
     "F2/Unidad VI.md",
-    "F2/Formulario Unidad VI.md",
-    "F2/Formulario Unidades I y II.md",
     "F2/Unidad II.md",
-    "F2/Formulario Unidad III.md",
     "F2/Formulario Unidad VII.md",
     "F2/Unidad VII.md",
     "LP3/Segundo Parcial/Segundo Parcial.md",
@@ -292,7 +351,6 @@
     "SistemasDistribuidos/Unidad 5 - Tiempo y Estados Globales.md",
     "SistemasDistribuidos/Unidad 4 - Objetos Distribuidos e Invocación.md",
     "SistemasDistribuidos/Unidad 3 - Comunicación entre Procesos.md",
-    "SistemasDistribuidos/Unidad 2 - Modelos de Sistemas.md",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_004_SZTh.webp",
     "F2/Mejora de procesos para entregable 3 - Claude_files/thumbnail_003_SZTh.webp",

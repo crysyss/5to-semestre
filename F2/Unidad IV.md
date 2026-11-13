@@ -30,7 +30,7 @@ aliases:
     - [[#Campo Magnético Uniforme]]
 - [[#Flujo Magnético]]
     - [[#Flujo Magnético a Través de un Elemento de Área]]
-    - [[#Flujo Magnético Total yCaso Uniforme]]
+    - [[#Flujo Magnético Total y Caso Uniforme]]
     - [[#Unidad de Flujo Magnético]]
     - [[#Flujo a Través de una Superficie Cerrada]]
     - [[#Ejemplo 4.2]]
